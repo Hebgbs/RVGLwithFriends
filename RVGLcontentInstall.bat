@@ -23,7 +23,12 @@ IF NOT EXIST "%userprofile%\Desktop\RVGLcontentInstall.bat" (
 	ECHO Press any key to perform this task and exit script.
 	ECHO Execute the copy in %userprofile%\Desktop to continue installation.
 	PAUSE > NUL
+	DEL %userprofile%\Desktop\RVGLcontentInstall.bat 2>NUL
 	COPY %gitPath%\RVGLcontentInstall.bat %userprofile%\Desktop
+	ECHO.
+	ECHO Finished. Open copy at %userprofile%\Desktop.
+	ECHO %PAK%
+	PAUSE > NUL
 	%X%
 )
 IF EXIST %userprofile%\Desktop\RVGLcontentInstall.bat (GOTO locChk)
@@ -36,7 +41,9 @@ IF EXIST %~dp0\keepme (
 	CLS
 	ECHO Incorrect copy.
 	ECHO Use the copy from %userprofile%\Desktop.
-	GOTO End
+	ECHO.
+	ECHO This is to prevent accidential modification of the repository copy.
+	GOTO fixMe
 )
 
 REM | Game check
@@ -47,7 +54,7 @@ IF NOT EXIST "%RVGLpath%\rvgl.exe" (
 	CLS
 	ECHO Game executable does not exist.
 	ECHO Please modify script so %%RVGLpath%% is the game directory.
-	GOTO End
+	GOTO fixMe
 )
 IF EXIST "%RVGLpath%\rvgl.exe" (GOTO gitChk)
 
@@ -59,7 +66,7 @@ IF NOT EXIST "%gitPath%\keepme" (
 	CLS
 	ECHO Check file not detected.
 	ECHO Please modify script so %%gitPath%% is the content directory.
-	GOTO End
+	GOTO fixMe
 )
 IF EXIST "%gitPath%\keepme"(GOTO instMenu
 
@@ -72,8 +79,8 @@ ECHO.
 ECHO This script will either install or remove
 ECHO content pased upon the action selected below.
 ECHO.
-ECHO MENU
-ECHO ----
+ECHO Please make a selection below.
+ECHO ------------------------------
 ECHO 0. Exit this script
 ECHO 1. Install modifications
 ECHO 2. Remove modifications
@@ -118,9 +125,9 @@ IF NOT EXIST "%RVGLpath%\keepme" (
 	COLOR 0C
 	CLS
 	ECHO Are you sure you had installed this previously?
-	ECHO For safety of stock content, action has been cancelled.
+	ECHO For safety of default content, action has been cancelled.
 	ECHO.
-	ECHO If you are sure you've executed this beore and the file this
+	ECHO If you are sure you've executed this before and the file this
 	ECHO script seeks to continue removal doesn't exist then remove
 	ECHO the content and restore stock files yourself.
 	GOTO End
@@ -158,10 +165,17 @@ CLS
 ECHO Action cancelled.
 GOTO End
 
+REM | Fix advice
+:fixMe
+ECHO.
+ECHO You can begin modifying this file by choosing to edit
+ECHO from the context menu on your desktop or in explorer.
+GOTO End
+
 REM | Stop message.
 :End
 ECHO.
 ECHO %PAK% to exit.
 PAUSE > NUL
-color 07
+COLOR 07
 %X%
