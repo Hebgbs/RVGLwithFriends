@@ -63,7 +63,7 @@ RMDIR %RVGLpath%\gfx
 REN %RVGLpath%\oldCars cars
 REN %RVGLpath%\oldLevels levels
 REN %RVGLpath%\oldGFX gfx
-DEL %RVGLpath%\keepme
+DEL %RVGLpath%\keepme	
 ```
 > ### tl;dr:
 > * Remove additional content directories
@@ -71,15 +71,15 @@ DEL %RVGLpath%\keepme
 > * Remove check file as repository content is no longer available.
 
 ## Troubleshooting
-* `Incorrect copy / Use the copy from %userprofile%\Desktop`
-**Resolution:** Use the copy from desktop instead of the repository.
+* `Incorrect copy / Use the copy from %userprofile%\Desktop`<br\>
+**Resolution:** Use the copy from desktop instead of the repository.<br\>
 **Reason:** While this file is in `.gitignore`, this check is an extra provision to prevent accidential alteration of the repository copy.
-* `Game executable does not exist`
-**Resolution:** Define `%RVGLpath% by navigating to the game location in `explorer` and copying it from the address bar, then paste in the batch script to replace the path for this variable.
+* `Game executable does not exist`<br\>
+**Resolution:** Define `%RVGLpath% by navigating to the game location in `explorer` and copying it from the address bar, then paste in the batch script to replace the path for this variable.<br\>
 **Reason:** No game, no reason.
-* `Git content repository does not exist`
-**Resolution:** Define `%gitPath%` by using Github Desktop to open `explorer` at the repository directory and copy it from the address bar, then paste in the batch script to replace the path for this variable.
+* `Git content repository does not exist`<br\>
+**Resolution:** Define `%gitPath%` by using Github Desktop to open `explorer` at the repository directory and copy it from the address bar, then paste in the batch script to replace the path for this variable.<br\>
 **Reason:** Script checks for an empty file called `keepme` in the repository. If this doesn't exist, then script will not work.
-`Are you sure you had installed this previously?`
-**Resolution:** If you had installed this content previously, then this message wouldn't come up. Ptherwise, revert changes yourself if you had deleted `%RVGLpath%\keepme`.
+`Are you sure you had installed this previously?`<br\>
+**Resolution:** If you had installed this content previously, then this message wouldn't come up. Ptherwise, revert changes yourself if you had deleted `%RVGLpath%\keepme`.<br\>
 **Reason:** Prevents accidental removal of default game content.
