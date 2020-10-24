@@ -37,9 +37,9 @@ MKLINK /J %RVGLpath%\gfx %gitPath%\gfx
 ECHO. > %RVGLpath%\keepme
 ```
 > ### tl;dr:
-* Rename target directories
-* Create links from repository to game installation
-* Create check file for later possible removal
+> * Rename target directories
+> * Create links from repository to game installation
+> * Create check file for later possible removal
 
 Once finished, open `rvgl.exe` and register your profile within the game. If you browse the selection of vehicles and maps available, there should be _tons_ of extra content for you to choose from.
 
@@ -66,9 +66,9 @@ REN %RVGLpath%\oldGFX gfx
 DEL %RVGLpath%\keepme
 ```
 > ### tl;dr:
-* Remove additional content directories
-* Remove links from repository to game installation
-* Remove check file as repository content is no longer available.
+> * Remove additional content directories
+> * Remove links from repository to game installation
+> * Remove check file as repository content is no longer available.
 
 ## Troubleshooting
 * `Incorrect copy / Use the copy from %userprofile%\Desktop`
