@@ -80,6 +80,6 @@ DEL %RVGLpath%\keepme
 * `Git content repository does not exist`  
 **Resolution:** Define `%gitPath%` by using Github Desktop to open `explorer` at the repository directory and copy it from the address bar, then paste in the batch script to replace the path for this variable.  
 **Reason:** Script checks for an empty file called `keepme` in the repository. If this doesn't exist, then script will not work.
-* Are you sure you had installed this previously?`  
+* `Are you sure you had installed this previously?`  
 **Resolution:** If you had installed this content previously, then this message wouldn't come up. Ptherwise, revert changes yourself if you had deleted `%RVGLpath%\keepme`.  
 **Reason:** Prevents accidental removal of default game content.
