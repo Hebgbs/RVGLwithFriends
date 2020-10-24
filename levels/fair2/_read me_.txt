@@ -1,0 +1,104 @@
+Thank you for taking the time to open this (whether intentionaly or not). Please keep reading.
+____________________________________________________
+**IMPORTANT**
+THIS LEVEL REQUIRES RVGL 20.0430a (or higher) TO RUN. 
+
+This level may be locked depending on championship progress.
+Unlock reversed mode by beating time trial challenge time.
+____________________________________________________
+
+FAIRGROUND 2
+
+Length: 766m
+Length(R):  800m
+Difficulty: Extreme
+
+Time Trial: 0:55:00
+Time Trial(R): 0:59:00
+
+Practice Star: Yes
+
+Created: 10/15/2020
+
+
+____________________________________________________
+
+Description:
+
+The sun skims the horizon as your day at the fair draws to an end.
+
+Cut through the midway:
+Where noisy game booths line the path, and thrilling rides become tough challenges for the little cars.
+
+
+____________________________________________________
+
+Developers:
+
+GJ
+-Models
+-Textures
+-Objects
+-Animations
+-Lighting and Shading
+-Triggers and Cameras
+-Sound Effects
+
+
+I Spy
+-Visual Design Advisor
+-Triggers and Cameras
+-Animation Advisor
+-Concept Art
+-AI Nodes
+-POS Nodes
+-Sound Editor
+
+Acclaim/Probe
+-Probe Logo/Geometry
+
+Made with Blender Plugin
+____________________________________________________
+
+Stats:
+
+Faces: ~21,900
+NCP Faces: ~5,100
+Development Time: 8 Months 
+
+This is our third track release.
+
+____________________________________________________
+
+Trivia:
+
+-Before animated objects were added to RVGL, early ride prototypes were built using forcefeilds and objects. They consistently fell apart. One of them would launch into the stratosphere.
+-The monkey prize is named after I SPY's favorite ice cream flavor
+-GJ's favorite ride at the fair is the bumper car arena.
+-The midway sign start line, test of strength u turn, and some of the ride obstacles were planned as far back as 2013.
+
+
+____________________________________________________
+IMPORTANT
+-All items in this directory are built, recorded, and designed by GJ and I SPY. (Exception of the probe logo in the .w file)
+-Please consult GJ before altering or reusing assets outside of personal use.
+-Feel free to distribute as is without taking credit from the developers.
+-Do not alter this Readme file, and include it in this directory if distributing to friend, family, or whomever. 
+-This track directory is free to download and use, it is not for sale and not to be sold. Period.
+
+Re-Volt Hideout
+https://forum.re-volt.io/memberlist.php?mode=viewprofile&u=2090
+
+Email (I don't check this too often)
+grnthn2@gmail.com
+
+Discord
+.?#8017  (replace ? with coffee mug emoji)
+
+I SPY is reclusive, but if all else fails you can try to contact him instead. He also isn't a spy that's just his name.
+
+
+
+
+We hope you thoroughly enjoy this track,
+Thank you  :)

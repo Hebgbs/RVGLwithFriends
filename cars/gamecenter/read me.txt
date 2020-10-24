@@ -1,0 +1,35 @@
+================================================================
+Car name                : Game center   
+Install in folder       : Re-volt\cars\gamecenter
+Author                  : Akklaim studios london
+Email Address           : 
+Misc. Author Info       : 
+
+Description             : one of the 'promo' cars released by akklaim.
+
+Additional Credits to   : 
+================================================================
+
+* Play Information *
+
+Top speed (observed)    :32
+Rating                  :rookie/beginner 
+* Construction *
+
+Base                    : original made by probe studios London
+Editor(s) used          :unknown 
+Known Bugs              :Do not use parameters history.txt I've included it solely for historical purposes, it will crash re-volt 1.1(1207 patch and earlier)!!! this car was originally set up for the demo only. 
+
+
+* Copyright / Permissions *
+
+Authors MAY use this Car as a base to build additional
+cars.  
+
+(One of the following)
+
+You MAY distribute this CAR, provided you include this file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as you include this file 
+intact.
+

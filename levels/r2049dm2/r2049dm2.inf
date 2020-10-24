@@ -1,0 +1,20 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'R2049 Melee'
+STARTPOS        2080 1590 3000
+STARTPOSREV     -1236 1590 3000
+STARTROT        0.75
+STARTROTREV     0.25
+STARTGRID       0
+STARTGRIDREV    0
+FARCLIP         400000
+FOGSTART        390000
+FOGCOLOR        144 144 184
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     90
+INSTANCERGBPER  100
+MP3             'levels\r2049dm2\vice.mp3'

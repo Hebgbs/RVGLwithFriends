@@ -1,0 +1,20 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'R2049 Atomic'
+STARTPOS        -4215 211 -1330
+STARTPOSREV     -4670 211 -1666
+STARTROT        0.65
+STARTROTREV     0.15
+STARTGRID       0
+STARTGRIDREV    0
+FARCLIP         400000
+FOGSTART        390000
+FOGCOLOR        0 0 0
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     50
+INSTANCERGBPER  50
+MUSIC		'levels\r2049dm4\Robo.mp3'

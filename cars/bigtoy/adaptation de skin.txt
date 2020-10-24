@@ -1,0 +1,13 @@
+Adaptation d'un skin toyeca pour la Bigtoy par Totolens
+
+Pour pouvoir mettre vos skins toyecas sur la bigtoy, vous devez ouvrir le fichier " zones bigtoy " avec un logiciel de retouche d'image comme PSP.
+Faites un copier de l'image ouverte dans ce logiciel et ouvrez le skin que vous voulez adapter.
+Collez l'image en tant que calque et faites correspondre les pixels correspondants ( le pixel en bas à gauche du skin avec le pixel en bas à gauche des zones changeant )
+
+Petite précision : le mappage du body de la bigtoy est le même que celui de la toyeca.
+
+si tout ceci ne fonctionne pas maillez moi à l'adresse suivante.
+
+totolens@aol.com
+
+bon amusement
