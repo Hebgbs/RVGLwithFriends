@@ -11,7 +11,7 @@ SET FOOTMSG=If you are comfortable with these actions, press any key to continue
 SET DONEMSG=Actions complete.
 
 REM | Debug: Don't bother.
-SET X=EXIT /B
+SET X=EXIT
 
 REM | User script check
 REM | If user-editable copy does not exist, make one.
@@ -78,7 +78,7 @@ ECHO 0. Exit this script
 ECHO 1. Install modifications
 ECHO 2. Remove modifications
 ECHO.
-set /p choice=Selection: 
+set /p choice=Selection:
 if '%choice%'=='' ECHO "%choice%" isn't a selection; Try again.
 if '%choice%'=='0' GOTO endMe
 if '%choice%'=='1' GOTO ln
