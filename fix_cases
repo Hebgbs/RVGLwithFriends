@@ -20,6 +20,7 @@ find ./. -depth -print0 | while IFS= read -r -d '' file; do
   DST=`dirname "$file"`/`basename "$file" | tr '[A-Z]' '[a-z]'`
   if [ "$file" != "$DST" ]; then
     [ ! -e "$DST" ] && mv -T "$file" "$DST" || echo "$file was not renamed"
+	mv $DIR/.git/head $DIR/.git/HEAD
   fi
 done
 
