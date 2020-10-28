@@ -12,8 +12,8 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 echo "WARNING: This will modify your Re-Volt installation in:"
 echo -e "\t$DIR"
 echo ""
-echo "This script has been specially modified for use with Github"
-echo "for compatibility with use in repository directories."
+echo "This script has been specially modified for GitHub"
+echo "to prevent issues with use in repository directories."
 echo ""
 read -p "Press any key to continue." -n 1 -r
 echo
