@@ -1,0 +1,19 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Botanical Garden 4'
+STARTPOS        9000.000000 0.000000 7000.000000
+STARTPOSREV     0 0 0
+STARTROT        0.000000
+STARTROTREV     0.0
+STARTGRID       3
+STARTGRIDREV    0
+FARCLIP         9000
+FOGSTART        7000
+FOGCOLOR        212 212 212
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100

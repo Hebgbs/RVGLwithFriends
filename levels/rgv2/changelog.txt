@@ -1,0 +1,10 @@
+SNES Ghost Valley 2 - Changelog
+
+v1.1
+-Fixed boost panel arrow to have a black outline like in the original game.
+-Added shadows
+-Slight edits to the .inf files.
+-Removed unused boo textures.
+
+v1.0
+-Initial Release

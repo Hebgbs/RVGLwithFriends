@@ -1,0 +1,17 @@
+{
+	MATERIAL {
+	  ID              20
+	  Name            "Off-Track Gravel"
+	  Skid            true
+	  Spark           false
+	  Corrugated      true
+	  Moves           false
+	  Dusty           true
+	  Roughness       0.5
+	  Grip            0.24
+	  Hardness        1.0
+	  SkidSound       7
+	  ScrapeSound     5
+	  CorrugationType 6
+	}
+}
