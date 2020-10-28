@@ -20,10 +20,12 @@ find ./. -depth -print0 | while IFS= read -r -d '' file; do
   DST=`dirname "$file"`/`basename "$file" | tr '[A-Z]' '[a-z]'`
   if [ "$file" != "$DST" ]; then
     [ ! -e "$DST" ] && mv -T "$file" "$DST" || echo "$file was not renamed"
-	mv $DIR/.git/head $DIR/.git/HEAD
   fi
 done
 
+mv $DIR/.git/head $DIR/.git/HEAD
+mv $DIR/.git/fetch_head $DIR/.git/FETCH_HEAD
+mv $DIR/rvglcontentinstall.bat $DIR/RVGLcontentInstall.bat
 echo "Done."
 read -p "Press any key to continue." -n 1 -r
 echo
