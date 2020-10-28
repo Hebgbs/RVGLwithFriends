@@ -1,0 +1,28 @@
+#!/bin/bash
+echo "Fixing filenames..."
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+echo "WARNING: This will modify your Re-Volt installation in:"
+echo -e "\t$DIR"
+read -p "Press any key to continue." -n 1 -r
+echo
+
+cd "$DIR"
+
+find ./. -depth -print0 | while IFS= read -r -d '' file; do
+  DST=`dirname "$file"`/`basename "$file" | tr '[A-Z]' '[a-z]'`
+  if [ "$file" != "$DST" ]; then
+    [ ! -e "$DST" ] && mv -T "$file" "$DST" || echo "$file was not renamed"
+  fi
+done
+
+echo "Done."
+read -p "Press any key to continue." -n 1 -r
+echo
