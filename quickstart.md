@@ -45,7 +45,7 @@ Whether you have an account with GitHub or not, you can clone _this repository_ 
 #### Repository content
 So that you are in sync with us and have available use of all extra content this repository provides, perform the following, in order:
 1. In GitHub Desktop, open repository `RVGLwithFriends` in explorer
-2. Either copy to `%userprofile%\Desktop` the batch file, or upon execution from reppsitory directory the script will copy itself on your behalf.
+2. Either copy to `%userprofile%\Desktop` the batch file, or upon execution from repository directory the script will copy itself on your behalf.
 3. Execute the script and see what errors come up. _If any_, you will have to edit the script so it functions.
    * Visit the [**Troubleshooting**](https://github.com/Hebgbs/RVGLwithFriends#troubleshooting) section of the repository page to make the script functional.
 4. Once the script is made functional by modifying variable paths to correct locations on disk, in the menu provided select option 1.
