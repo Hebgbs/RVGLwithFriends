@@ -15,7 +15,7 @@ Before attempting to join, make sure you have the following services available t
 ## Software
 
 ### Acquisition
-**RVGL**, or _Re-Volt OpenGL_is a modern take on a timeless classic. Originally made as "Re-Volt" in 1997 by Acclaim Entertainment (RIP), thhhis game places you at the perspective of an R / C vehicle, typically driving in life-size environments. RVGL comes with it modern netplay code, new features for content creators and the capability to use multiple processor cores if a user wishes to do as such. **You will need this content to play.**
+**RVGL**, or _Re-Volt OpenGL_ is a modern take on a timeless classic. Originally made as "Re-Volt" in 1997 by Acclaim Entertainment (RIP), thhhis game places you at the perspective of an R / C vehicle, typically driving in life-size environments. RVGL comes with it modern netplay code, new features for content creators and the capability to use multiple processor cores if a user wishes to do as such. **You will need this content to play.**
 
 <table>
   <tr><th colspan="2">Select your system architecture:</th></tr>
@@ -43,7 +43,7 @@ Extract the contents of the directory you downloaded to a place you will remembe
 Whether you have an account with GitHub or not, you can clone _this repository_ by copying the following address, and pasting it in the prompt for cloning a repository: https://github.com/Hebgbs/RVGLwithFriends.git
 
 #### Repository content
-Perform the following, in order:
+So that you are in sync with us and have available use of all extra content this repository provides, perform the following, in order:
 1. In GitHub Desktop, open repository `RVGLwithFriends` in explorer
 2. Either copy to `%userprofile%\Desktop` the batch file, or upon execution from reppsitory directory the script will copy itself on your behalf.
 3. Execute the script and see what errors come up. _If any_, you will have to edit the script so it functions.
