@@ -15,7 +15,7 @@ Before attempting to join, make sure you have the following services available t
 ## Software
 
 ### Acquisition
-**RVGL**, or _Re-Volt OpenGL_ is a modern take on a timeless classic. Originally made as "Re-Volt" in 1997 by Acclaim Entertainment (RIP), thhhis game places you at the perspective of an R / C vehicle, typically driving in life-size environments. RVGL comes with it modern netplay code, new features for content creators and the capability to use multiple processor cores if a user wishes to do as such. **You will need this content to play.**
+**RVGL**, or _Re-Volt OpenGL_ is a modern take on a timeless classic. Originally made as "Re-Volt" in 1997 by Acclaim Entertainment (RIP), this game places you at the perspective of an R / C vehicle, typically driving in life-size environments. RVGL comes with it modern netplay code, new features for content creators and the capability to use multiple processor cores if a user wishes to do as such. **You will need this content to play.**
 
 <table>
   <tr><th colspan="2">Select your system architecture:</th></tr>
