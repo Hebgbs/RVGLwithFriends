@@ -28,7 +28,7 @@ Before attempting to join, make sure you have the following services available t
   </tr>
 </table>
 
-Tyoically your selection will be x64 on modern hardware, _but_ if you aren't sure or want a portable buiild with the most compatibiility, the _x86_ build will function on all systems.
+Typically your selection will be x64 on modern hardware, _but_ if you aren't sure or want a portable buiild with the most compatibiility, the _x86_ build will function on all systems.
 
 [**RV House**](http://rvhouse.revoltzone.net/downloads/rv_house_setup.exe) is the software we use for stream races. While direct-to-IP typically works when any host is configured to allow data packets from RVGL in and out of their Internet communications device, use of a middle service  for Internet play is less of a hassle. Sadly, this also limits play to Microsoft Windows users, so people on Macand Linux can get stuffed until someone gives a damn enough to make a new version of RV House compatiblewith OS X and anything using the Linux kernel. **You will need to download this software and sign in with your Re-Volt Zone account to join.**
 
@@ -37,7 +37,7 @@ Tyoically your selection will be x64 on modern hardware, _but_ if you aren't sur
 ### Configuration
 
 #### RVGL
-Extract the contents of the directory you downloaded to a place you will remember. If using your desktop, don't be an idiot — Make a new folder (directory) to shove it in and keep your virtual space tidy!
+Extract the contents of the archive you downloaded to a place you will remember. Don't be an idiot — Make a new folder (directory) to shove it in and keep your virtual space tidy!
 
 #### GitHub Desktop
 Whether you have an account with GitHub or not, you can clone _this repository_ by copying the following address, and pasting it in the prompt for cloning a repository: https://github.com/Hebgbs/RVGLwithFriends.git
