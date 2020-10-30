@@ -133,6 +133,8 @@ cars/volken/
 cars/wincar/
 cars/wincar2/
 cars/wincar3/
-cars/wincar4
+cars/wincar4/
+fix_cases
 keepme
 RVGLcontentInstall.*
+*.md
