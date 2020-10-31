@@ -1,8 +1,8 @@
 # RVGL with friends!
 ## Preface
-If you'reseeing this, most likely you're coming from either Fishlegs or River's Twitch channels. Huge props for them in showing interest in a modern take for an R / C racing "Simulator" which is over twenty years old. There is a dedicated community of peers within the Re-Volt community who is also to thank for their efforts, make sure you express to them, as well my friends your gratitude:
-[FishLegs' guild](https://discord.gg/JUqRD7k)
-[Rivkets' guild](https://discord.gg/eq8Gfzb)
+If you're seeing this, most likely you're coming from either Fishlegs or River's Twitch channels. Huge props for them in showing interest in a modern take for an R / C racing "Simulator" which is over twenty years old. There is a dedicated community of peers within the Re-Volt community who is also to thank for their efforts, make sure you express to them, as well my friends your gratitude:  
+[FishLegs' guild](https://discord.gg/JUqRD7k)  
+[Rivkets' guild](https://discord.gg/eq8Gfzb)  
 [Re-Volt guild (int'l)](https://discord.gg/NMT4Xdb)
 
 Without these communities, this project wouldn't be a thing, and this game would not exist. Nobody would imagine after 23 years, this game would still be a thing, but _it is_ and it's wonderful.
