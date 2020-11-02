@@ -45,11 +45,11 @@ SET waitReq=Please wait as this task completes.
 REM | Since you're reading this...
 REM | Here are the URLs for everything this script gives.
 REM | Supplied at the head of this document for convenience (and future updates!)
-REM | -> GitHub Desktop (Do not tamper with variable, this is for 32-bit compatibility)
+REM | -> GitHub Desktop (Do not tamper with variable, this is for 32-bit compatibility.)
 SET gitURL=https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/Git-2.29.2-%gitSCMarch%.exe
 REM | -> RV House (online matchmaking)
 SET RVHurl=http://rv12.revoltzone.net/downloads/rv_house_setup.exe
-REM | -> Re-Volt OpenGL (RVGL)
+REM | -> Re-Volt OpenGL (RVGL, again don't mess with the arch var.)
 SET gameURL=https://distribute.re-volt.io/releases/rvgl_full_%RVGLarch%_original.zip
 
 %L% IF NOT EXIST %gamePath%\rvgl.exe GOTO admin
@@ -141,7 +141,7 @@ GOTO initGitChk
 REM | Routines for each segment
 REM | -> GitHub
 :gitMissing
-ECHO Git does not exist!
+ECHO Git SCM does not exist!
 ECHO This is required for the script to perform as intended.
 ECHO.
 ECHO The easiest way to acquire and purpose Git for this
@@ -253,6 +253,7 @@ CLS
 GOTO %perform%
 
 :PSDstage
+REM | Beautify output for PowerShell actions
 ECHO.
 ECHO.
 ECHO.
@@ -301,6 +302,9 @@ ECHO If you hadn't played the game for awhile, new content in this
 ECHO repository might exist, which is why it is recommended to perform
 ECHO "git -C %repoPath%\RVGLwithFriends pull"
 ECHO occasionally to receive new content before executing RVGL.
+ECHO,
+ECHO Should the game be executed using this script, git will be invoked
+ECHO automatically so you don't have to worry about pullng new content.
 ECHO.
 ECHO %PAK% %cont%
 PAUSE > NUL
@@ -339,7 +343,7 @@ ECHO.
 %M% This script has been modified! Reverse dev changes before submitting!
 %M%.
 ECHO Run this batch script again to play RVGL
-ECHO and use custo content from RVGLwithFriends!
+ECHO and use custom content from RVGLwithFriends!
 ECHO.
 GOTO abort
 
