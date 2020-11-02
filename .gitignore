@@ -138,3 +138,4 @@ fix_cases
 keepme
 RVGLcontentInstall.*
 *.md
+profiles/
