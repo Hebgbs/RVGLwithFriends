@@ -22,8 +22,8 @@ REM | REM disables, ECHO enables; M=finmod
 
 SET M=REM
 REM | REM disables, blank enables; G=pre-run Git tasks, L=launch
-SET G=
 SET L=
+SET G=
 
 REM | Normalize for Program Files (x86)
 REM | Also, define what copy of Git SCM is used.
@@ -59,23 +59,20 @@ SET repoURL=https://github.com/Hebgbs/RVGLwithFriends.git
 %G% IF NOT EXIST %gamePath%\rvgl.exe GOTO admin
 %G% IF NOT EXIST %repoPath%\RVGLwithFriends\NUL (
 %G%		SET postInst=launch
-%G%		IF EXIST %gamePath%\defaultCars\NUL DEL %gamePath%\cars
-%G%		IF EXIST %gamePath%\defaultLevels\NUL DEL %gamePath%\levels
-%G%		IF EXIST %gamePath%\defaultGFX\NUL DEL %gamePath%\gfx
+%G%		IF EXIST %gamePath%\defaultCars\NUL RMDIR /Q /S %gamePath%\cars > NUL
+%G%		IF EXIST %gamePath%\defaultLevels\NUL RMDIR /Q /S %gamePath%\levels > NUL
+%G%		IF EXIST %gamePath%\defaultGFX\NUL RMDIR /Q /S %gamePath%\gfx > NUL
 %G%		GOTO clone
 %G% )
 %G% IF EXIST %repoPath%\RVGLwithFriends\NUL (
 %G%	git -C %repoPath%\RVGLwithFriends pull
 %G%	ECHO.
 %G% )
-%G% IF EXIST %gamePath%\rvgl.exe GOTO launch
 %L% :launch
-%L% IF EXIST %gamePath%\rvgl.exe (
-%L%		ECHO Launching game...
-%L%		CD /D %gamePath%
-%L%		rvgl.exe %commands%
-%L%		%X%
-%L% )
+%L% ECHO Launching game...
+%L% CD /D %gamePath%
+%L% rvgl.exe %commands%
+%L% %X%
 
 REM | Get admin
 :admin
@@ -133,6 +130,8 @@ ECHO,
 GOTO abort
 
 :pathConfirm
+REM | Assume user has GIT SCM until otherwise.
+SET postGit=yesGit
 CLS
 ECHO The following directories are defined as paths to use;
 ECHO - Per-user installation of game:
@@ -154,6 +153,8 @@ GOTO initGitChk
 REM | Routines for each segment
 REM | -> GitHub
 :gitMissing
+REM | Otherwise.
+SET postGit=noGit
 ECHO Git SCM does not exist!
 ECHO This is required for the script to perform as intended.
 ECHO.
@@ -323,12 +324,30 @@ ECHO %PAK% %cont%
 PAUSE > NUL
 REM | Only for fresh install, ideally.
 SET postInst=fin
+GOTO %postGit%
+
+:yesGit
 GOTO clone
+
+:noGit
+CLS
+COLOR 0A
+ECHO Unfortunatly, due to limitations with this instance of command prompt,
+ECHO as Git was not installed at the time it wouldn't work now in spite of
+ECHO the fact it exists now.
+ECHO.
+ECHO The next time this script is executed, Git will be available to cmd
+ECHO and clone task will execute successfully. Due to bugs presently in this
+ECHO script, the game will execute the third time this script is launched.
+ECHO.
+ECHO %PAK% to exit.
+PAUSE > NUL
+%X%
 
 :clone
 IF NOT EXIST %repoPath% MKDIR %repoPath%
 REM | MUST be handled in a separate instance in case Git SCM did not exist at the time.
-cmd /C git -C %repoPath% clone %repoURL%
+git -C %repoPath% clone %repoURL%
 GOTO :link
 
 :link
@@ -338,6 +357,8 @@ IF NOT EXIST %gamePath%\defaultGFX REN %gamePath%\gfx defaultGFX
 IF NOT EXIST %gamePath%\cars MKLINK /J %gamepath%\cars %repoPath%\RVGLwithFriends\cars > NUL
 IF NOT EXIST %gamePath%\levels MKLINK /J %gamepath%\levels %repoPath%\RVGLwithFriends\levels > NUL
 IF NOT EXIST %gamePath%\gfx MKLINK /J %gamepath%\gfx %repoPath%\RVGLwithFriends\gfx > NUL
+ECHO Label currently is %postInst%
+PAUSE
 GOTO %postInst%
 
 :refuse
