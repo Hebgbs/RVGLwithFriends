@@ -24,8 +24,6 @@ SET M=REM
 REM | REM disables, blank enables; G=pre-run Git tasks, L=launch
 SET G=
 SET L=
-REM | Early exit after Git task; %X%=Exit task, blank=skip
-SET Q
 
 REM | Normalize for Program Files (x86)
 REM | Also, define what copy of Git SCM is used.
@@ -59,15 +57,19 @@ REM | Location of extra content
 SET repoURL=https://github.com/Hebgbs/RVGLwithFriends.git
 
 %G% IF NOT EXIST %gamePath%\rvgl.exe GOTO admin
-%G% IF NOT EXIST %repoPath%\RVGLwithFriends (
+%G% IF NOT EXIST %repoPath%\RVGLwithFriends\NUL (
 %G%		SET postInst=launch
+%G%		IF EXIST %gamePath%\defaultCars\NUL DEL %gamePath%\cars
+%G%		IF EXIST %gamePath%\defaultLevels\NUL DEL %gamePath%\levels
+%G%		IF EXIST %gamePath%\defaultGFX\NUL DEL %gamePath%\gfx
 %G%		GOTO clone
 %G% )
+%G% IF EXIST %repoPath%\RVGLwithFriends\NUL (
+%G%	git -C %repoPath%\RVGLwithFriends pull
 %G%	ECHO.
-%Q%
 %G% )
 %G% IF EXIST %gamePath%\rvgl.exe GOTO launch
-:launch
+%L% :launch
 %L% IF EXIST %gamePath%\rvgl.exe (
 %L%		ECHO Launching game...
 %L%		CD /D %gamePath%
@@ -319,13 +321,14 @@ ECHO automatically so you don't have to worry about pullng new content.
 ECHO.
 ECHO %PAK% %cont%
 PAUSE > NUL
-MKDIR %repoPath%\GitHub
 REM | Only for fresh install, ideally.
 SET postInst=fin
 GOTO clone
+
 :clone
+IF NOT EXIST %repoPath% MKDIR %repoPath%
 REM | MUST be handled in a separate instance in case Git SCM did not exist at the time.
-cmd /C git -C %repoPath%\GitHub clone %repoURL%
+cmd /C git -C %repoPath% clone %repoURL%
 GOTO :link
 
 :link
