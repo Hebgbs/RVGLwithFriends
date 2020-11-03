@@ -19,9 +19,13 @@ REM | -noforce: Disable force feedback
 REM | Debug: Set /b to leave console opened.
 SET X=EXIT
 REM | REM disables, ECHO enables; M=finmod
+
 SET M=REM
-REM | REM disables, blank enables; L=launch
+REM | REM disables, blank enables; G=pre-run Git tasks, L=launch
+SET G=
 SET L=
+REM | Early exit after Git task; %X%=Exit task, blank=skip
+SET Q
 
 REM | Normalize for Program Files (x86)
 REM | Also, define what copy of Git SCM is used.
@@ -51,17 +55,24 @@ REM | -> RV House (online matchmaking)
 SET RVHurl=http://rv12.revoltzone.net/downloads/rv_house_setup.exe
 REM | -> Re-Volt OpenGL (RVGL, again don't mess with the arch var.)
 SET gameURL=https://distribute.re-volt.io/releases/rvgl_full_%RVGLarch%_original.zip
+REM | Location of extra content
+SET repoURL=https://github.com/Hebgbs/RVGLwithFriends.git
 
-%L% IF NOT EXIST %gamePath%\rvgl.exe GOTO admin
-%L% IF EXIST %programfiles%\Git\git.exe (
-%L%	git -C %repoPath%\RVGLwithFriends pull
-%L%	ECHO.
-%L% )
+%G% IF NOT EXIST %gamePath%\rvgl.exe GOTO admin
+%G% IF NOT EXIST %repoPath%\RVGLwithFriends (
+%G%		SET postInst=launch
+%G%		GOTO clone
+%G% )
+%G%	ECHO.
+%Q%
+%G% )
+%G% IF EXIST %gamePath%\rvgl.exe GOTO launch
+:launch
 %L% IF EXIST %gamePath%\rvgl.exe (
-%L%	ECHO Launching game...
-%L%	CD /D %gamePath%
-%L%	rvgl.exe %commands%
-%L%	%X%
+%L%		ECHO Launching game...
+%L%		CD /D %gamePath%
+%L%		rvgl.exe %commands%
+%L%		%X%
 %L% )
 
 REM | Get admin
@@ -308,8 +319,14 @@ ECHO automatically so you don't have to worry about pullng new content.
 ECHO.
 ECHO %PAK% %cont%
 PAUSE > NUL
-git -C %repoPath% clone https://github.com/Hebgbs/RVGLwithFriends.git
-GOTO link
+MKDIR %repoPath%\GitHub
+REM | Only for fresh install, ideally.
+SET postInst=fin
+GOTO clone
+:clone
+REM | MUST be handled in a separate instance in case Git SCM did not exist at the time.
+cmd /C git -C %repoPath%\GitHub clone %repoURL%
+GOTO :link
 
 :link
 IF NOT EXIST %gamePath%\defaultCars REN %gamePath%\cars defaultCars
@@ -318,7 +335,7 @@ IF NOT EXIST %gamePath%\defaultGFX REN %gamePath%\gfx defaultGFX
 IF NOT EXIST %gamePath%\cars MKLINK /J %gamepath%\cars %repoPath%\RVGLwithFriends\cars > NUL
 IF NOT EXIST %gamePath%\levels MKLINK /J %gamepath%\levels %repoPath%\RVGLwithFriends\levels > NUL
 IF NOT EXIST %gamePath%\gfx MKLINK /J %gamepath%\gfx %repoPath%\RVGLwithFriends\gfx > NUL
-GOTO fin
+GOTO %postInst%
 
 :refuse
 ECHO There is a quick-start guide which will allow you to perform the
