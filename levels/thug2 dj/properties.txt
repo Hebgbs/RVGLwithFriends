@@ -1,0 +1,56 @@
+GRAVITY {
+  Magnitude       2850.0                        ; Magnitude of gravity
+  Direction       0.000000 1.000000 0.000000    ; Direction of gravity
+  Dampening       0.00450                      ; Dampening effect
+  Rockiness       0.000000 0.000000             ; Rocky effect parameters
+                  0.000000 0.000000
+  RockyType       0                             ; Type of rocky effect [0 - 1]
+}
+
+WIND {
+  Priority        1                             ; Field priority [0 - 2]
+  TimeMin         20                             ; Min update rate
+  TimeMax         35                            ; Max update rate
+  Expands         true                          ; Size expands
+}
+
+
+
+SPARK {
+  ID              8                             ; Particle to replace [0 - 30]
+  Name            "WATER"                       ; Display name
+
+  CollideWorld    true                          ; Collision with the world
+  CollideObject   false                          ; Collision with objects
+  CollideCam      false                          ; Collision with camera
+  HasTrail        FALSE                         ; Particle has a trail
+  FieldAffect     true                          ; Is affected by force fields
+  Spins           true                         ; Particle spins
+  Grows           true                         ; Particle grows
+  Additive        TRUE                          ; Draw particle additively
+  Horizontal      false                         ; Draw particle flat
+
+  Size            50.000000 32.000000           ; Size of the particle
+  UV              0.750000 0.062500             ; Top left UV coordinates
+  UVSize          0.062500 0.062500             ; Width and height of UV
+  TexturePage     47                            ; Texture page
+  Color           160 192 240                     ; Color of the particle
+
+  Mass            0.000400                      ; Mass of the particle
+  Resistance      0.000200                      ; Air resistance
+  Friction        0.000100                      ; Sliding friction
+  Restitution     0.500000                      ; Bounciness
+
+  LifeTime        1.500000                      ; Maximum life time
+  LifeTimeVar     0.300000                      ; Life time variance
+
+  SpinRate        0.700000                      ; Avg. spin rate (radians/sec)
+  SpinRateVar     0.250000                      ; Variation of the spin rate
+
+  SizeVar         4.800000                      ; Size variation
+  GrowRate        3.000000                      ; How quickly it grows
+  GrowRateVar     3.200000                      ; Grow variation
+
+  TrailType       2                            ; ID of the trail to use
+}
+

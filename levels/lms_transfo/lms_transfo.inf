@@ -1,0 +1,20 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'LMS Transformers Arena'
+STARTPOS        0.000000 -0500.000000 0.000000
+STARTPOSREV     0 0 0
+STARTROT        0.750000
+STARTROTREV     0.0
+STARTGRID       3
+STARTGRIDREV    3
+FARCLIP         26500
+FOGSTART        0
+FOGCOLOR        80 144 192
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     20
+MODELRGBPER     20
+INSTANCERGBPER  20
+MP3		'levels\lms_transfo\newdivide.mp3'

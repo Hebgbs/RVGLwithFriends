@@ -1,0 +1,63 @@
+﻿                    # # # # # # # # # # # # # # # # # # #
+                    #  _____________________ ________   #
+                    #  \_   _____/\____    //  _____/   #
+                    #   |    __)    /     //   \  ___   #
+                    #   |     \    /     /_\    \_\  \  #
+                    #   \___  /   /_______ \\______  /  #
+                    #       \/            \/       \/   #
+                    #		With Friends!	    	#
+                    # # # # # # # # # # # # # # # # # # #
+
+Car information
+__________________________________________________________________________
+
+Pack name        	: Retrojet
+
+Car Type  		: Original
+
+Top speed		: 45 mph
+
+Rating/Class   		: Super-Pro
+
+Installed folder       	: ...\cars\retrojet
+
+Description           	: This mesh was made by Paintheart based of chryslus
+			  from Forza motorsport 6. He collabed with me and
+			  i made the demo params and texturing, which then
+			  Burner94 told me that Paintheart went on making
+			  other game. So Burner94 enhanced the parameters
+			  and hull file, then i made 3 more liveries.
+
+
+Author Information
+__________________________________________________________________________
+
+Author Name 	: Fr13ndz0n3dguy, Paintheart, Burner94
+
+Email Address   : fatahzahran@gmail.com
+
+
+Construction
+__________________________________________________________________________
+
+Editor(s) used 	: Blender and Paint.net
+
+
+Additional Credits 
+__________________________________________________________________________
+
+-Thanks to the official community who continues to make Re-Volt a fun and 
+attractive game !
+-R6TE and Mightycucumber who taught me blender basics
+-Paintheart for the collab and great 3D mesh work
+-Burner94 for the param and hull enhancement, also livery ideas
+-All the good responses from the people in the beloved community
+-All the updates of RVGL
+
+
+Copyright / Permissions
+__________________________________________________________________________
+
+You may do whatever you want with this car but you have to give us credits
+and give credit to the original author.
+Do not distribute without authorization.

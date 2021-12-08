@@ -1,0 +1,19 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		'Aztec Battle'	;The name of the level as seen in-game
+GAMETYPE 1
+STARTPOS	0 -100 150	;Start position of the car
+STARTROT	0		;Start rotation of the car (0 - 1)
+STARTGRID	3		;Starting grid type
+FOGSTART        	45000
+FARCLIP        		90000
+FOGCOLOR      		0 0 0
+VERTFOGSTART   		0
+VERTFOGEND     		0
+WORLDRGBPER    		100
+MODELRGBPER     	100
+INSTANCERGBPER 		100
+MP3 'levels\dirt_battle\lemon.mp3'
+REDBOOK		4 9

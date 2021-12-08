@@ -1,0 +1,21 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		'Images Of Giza: Redux';The name of the level as seen in-game
+STARTPOS	-200 0 400  ;Start position of the car
+STARTPOSREV	1063 0 -523  ;Start position of the car
+STARTROT	0		;Start rotation of the car (0 - 1)
+STARTROTREV	0.5		;Start rotation of the car (0 - 1)
+FARCLIP		8000		;Far clipping distance (draw distance)
+FOGSTART	5000		;Fog start (slightly less than FARCLIP)
+FOGCOLOR	72 62 50	;Fog and background color
+VERTFOGSTART	0		;Vertical fog start (as in rooftops)
+VERTFOGEND	0		;Vertical fog end (as in rooftops)
+WORLDRGBPER     100             ;RGB percent of original world gouraud
+MODELRGBPER	100		;RGB percent of original model gouraud
+INSTANCERGBPER	100		;RGB percent of original instance gouraud
+MIRRORS		0 0.60 0 512	;Type - mix - intensity start - distance
+TEXTUREPROPS 		6 1 1 1
+MUSIC		'music\io\exotic'
+REDBOOK		4 9

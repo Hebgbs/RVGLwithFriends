@@ -1,0 +1,4 @@
+GBA Battle Course 3 - Changelog
+
+v1.0
+-Initial Release

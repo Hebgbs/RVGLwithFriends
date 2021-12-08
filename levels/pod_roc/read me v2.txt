@@ -1,0 +1,40 @@
+===TRACK SUMMARY===
+
+Name:          POD: Roc
+Length:        302 meters (both regular and reversed)
+Difficulty:    Easy
+Converted by:  mrroblinx
+Creation date: November 23th to November 30th 2019
+Trailer:       https://www.youtube.com/watch?v=6WxXpKjq3N4
+Updated:       January 7th 2020
+
+===DESCRIPTION===
+
+Original Description: This is the second track from the game POD: Planet of Death, this track has a really dark mood that I love, even though it's a tad short.
+The next track will be much longer, don't you worry >:)
+
+Update: I added the rotating radar that was missing when I first converted this track, as well as what you would expect, animated sky, effects, HUD elements, custom powerups and sounds.
+
+===INCLUDED IN THIS TRACK== Sections with * have been added in the update
+
+Reverse mode
+Practice Star
+Custom skybox (*with animated sky)
+Custom sounds and effects from POD (*more added)
+Challenge Time
+*Custom object made by me (Rader) using custom animation
+*Custom powerups
+
+===TOOLS USED===
+
+Ninja Ripper
+bl4viewer
+Blender (with Marv's plugin)
+Paint.NET
+PodPaint
+
+===SPECIAL THANKS===
+
+The Re-Volt community, for being such a incredible help all the time.
+RiffRaff (Leadbest), for being my inspiration to convert these tracks.
+POD's original creators, wherever they may be (not you UbiSoft).

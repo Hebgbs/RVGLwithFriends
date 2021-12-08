@@ -1,0 +1,284 @@
+{
+
+;--------
+; Models
+;--------
+
+MODEL   0   "road_piston"
+MODEL   1   "road_piston2"
+MODEL	2   "piston"
+MODEL	3   "boxes"
+
+;----------------------------
+; Animations
+;----------------------------
+
+ANIMATION {
+  Slot                      0                         ; Slot ID (0 to 255)
+  Name                      "Road Piston 1"         	; Display name (currently unused)
+  Mode                      0                         ; 0: loop / 1: animate a single time, stopping after the last frame / 2: back and forth (reverse after last keyframe)
+  NeedsTrigger              false                     ; Whether the animation needs to be triggered
+  PreCountdown		    true
+
+  BONE {
+	BoneID               0                         ; Body part ID (0 to 15); part 0 is the main body part
+     ModelID                 0                        ; Model ID (0 to 63, or -1)
+     Parent                  0                         ; Body part parent ID; must be smaller than the bone ID; not present at the main body part
+      OffsetTranslation       0.000 0.000 0.000         ; Offset to parent location
+      OffsetRotationAxis      0.000 -1.000 0.000        ; Offset rotation axis
+      OffsetRotationAmount    0.000                     ; Offset rotation (in degrees)
+    }
+
+     KEYFRAME {
+      FrameNr                 1                         ; Number of the keyframe (0 to 255)
+      Time                    2.000                     ; Time (in seconds) since previous keyframe
+      Type                    3                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 1900.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 0                         ; Number of the keyframe (0 to 255)
+      Time                    5.000                     ; Time (in seconds) since previous keyframe
+      Type                    3                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 0.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 3                         ; Number of the keyframe (0 to 255)
+      Time                    2.000                     ; Time (in seconds) since previous keyframe
+      Type                    3                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 -1900.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 2                         ; Number of the keyframe (0 to 255)
+      Time                    2.500                     ; Time (in seconds) since previous keyframe
+      Type                    3                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 0.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+  }
+
+ANIMATION {
+  Slot                      1                         ; Slot ID (0 to 255)
+  Name                      "Road Piston 2"         	; Display name (currently unused)
+  Mode                      0                         ; 0: loop / 1: animate a single time, stopping after the last frame / 2: back and forth (reverse after last keyframe)
+  NeedsTrigger              false                     ; Whether the animation needs to be triggered
+  PreCountdown		    true
+
+  BONE {
+	BoneID               0                         ; Body part ID (0 to 15); part 0 is the main body part
+     ModelID                 1                        ; Model ID (0 to 63, or -1)
+     Parent                  0                         ; Body part parent ID; must be smaller than the bone ID; not present at the main body part
+      OffsetTranslation       0.000 0.000 0.000         ; Offset to parent location
+      OffsetRotationAxis      0.000 -1.000 0.000        ; Offset rotation axis
+      OffsetRotationAmount    0.000                     ; Offset rotation (in degrees)
+    }
+
+     KEYFRAME {
+      FrameNr                 0                         ; Number of the keyframe (0 to 255)
+      Time                    2.000                     ; Time (in seconds) since previous keyframe
+      Type                    3                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 1900.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 1                         ; Number of the keyframe (0 to 255)
+      Time                    2.500                     ; Time (in seconds) since previous keyframe
+      Type                    3                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 0.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 2                         ; Number of the keyframe (0 to 255)
+      Time                    2.000                     ; Time (in seconds) since previous keyframe
+      Type                    3                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 -1900.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 3                         ; Number of the keyframe (0 to 255)
+      Time                    5.000                     ; Time (in seconds) since previous keyframe
+      Type                    3                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 0.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+  }
+
+ANIMATION {
+  Slot                      2                         ; Slot ID (0 to 255)
+  Name                      "Piston"         	; Display name (currently unused)
+  Mode                      0                         ; 0: loop / 1: animate a single time, stopping after the last frame / 2: back and forth (reverse after last keyframe)
+  NeedsTrigger              false                     ; Whether the animation needs to be triggered
+  PreCountdown		    true
+
+  BONE {
+	BoneID               0                         ; Body part ID (0 to 15); part 0 is the main body part
+     ModelID                 2                        ; Model ID (0 to 63, or -1)
+     Parent                  0                         ; Body part parent ID; must be smaller than the bone ID; not present at the main body part
+      OffsetTranslation       0.000 0.000 0.000         ; Offset to parent location
+      OffsetRotationAxis      0.000 -1.000 0.000        ; Offset rotation axis
+      OffsetRotationAmount    0.000                     ; Offset rotation (in degrees)
+    }
+
+     KEYFRAME {
+      FrameNr                 0                         ; Number of the keyframe (0 to 255)
+      Time                    0.500                     ; Time (in seconds) since previous keyframe
+      Type                    0                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           900.000 0.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 1                         ; Number of the keyframe (0 to 255)
+      Time                    2.000                     ; Time (in seconds) since previous keyframe
+      Type                    0                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 0.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 2                         ; Number of the keyframe (0 to 255)
+      Time                    0.500                     ; Time (in seconds) since previous keyframe
+      Type                    0                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           -900.000 0.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+
+     KEYFRAME {
+      FrameNr                 3                         ; Number of the keyframe (0 to 255)
+      Time                    2.000                     ; Time (in seconds) since previous keyframe
+      Type                    0                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 0.000 0.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+  }
+
+ANIMATION {
+  Slot                      3                         ; Slot ID (0 to 255)
+  Name                      "Boxes"         	; Display name (currently unused)
+  Mode                      0                         ; 0: loop / 1: animate a single time, stopping after the last frame / 2: back and forth (reverse after last keyframe)
+  NeedsTrigger              false                     ; Whether the animation needs to be triggered
+  PreCountdown		    true
+
+  BONE {
+	BoneID               0                         ; Body part ID (0 to 15); part 0 is the main body part
+     ModelID                 3                        ; Model ID (0 to 63, or -1)
+     Parent                  0                         ; Body part parent ID; must be smaller than the bone ID; not present at the main body part
+      OffsetTranslation       0.000 0.000 0.000         ; Offset to parent location
+      OffsetRotationAxis      0.000 -1.000 0.000        ; Offset rotation axis
+      OffsetRotationAmount    0.000                     ; Offset rotation (in degrees)
+    }
+
+     KEYFRAME {
+      FrameNr                 0                         ; Number of the keyframe (0 to 255)
+      Time                    20.000                     ; Time (in seconds) since previous keyframe
+      Type                    0                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 0.000 18000.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+  }
+
+ANIMATION {
+  Slot                      4                         ; Slot ID (0 to 255)
+  Name                      "Boxes"         	; Display name (currently unused)
+  Mode                      0                         ; 0: loop / 1: animate a single time, stopping after the last frame / 2: back and forth (reverse after last keyframe)
+  NeedsTrigger              false                     ; Whether the animation needs to be triggered
+  PreCountdown		    true
+
+  BONE {
+	BoneID               0                         ; Body part ID (0 to 15); part 0 is the main body part
+     ModelID                 3                        ; Model ID (0 to 63, or -1)
+     Parent                  0                         ; Body part parent ID; must be smaller than the bone ID; not present at the main body part
+      OffsetTranslation       0.000 0.000 0.000         ; Offset to parent location
+      OffsetRotationAxis      0.000 -1.000 0.000        ; Offset rotation axis
+      OffsetRotationAmount    0.000                     ; Offset rotation (in degrees)
+    }
+
+     KEYFRAME {
+      FrameNr                 0                         ; Number of the keyframe (0 to 255)
+      Time                    20.000                     ; Time (in seconds) since previous keyframe
+      Type                    0                         ; Interpolation type. 0 - linear, 1 - smooth start, 2 - smooth end, 3 - both smooth, 4 - overshoot
+      BONE {
+        BoneID                0                         ; Body part ID
+        Visible               true                      ; Toggle body part visibility (for all future keyframes until it is changed again)
+        Translation           0.000 0.000 -18000.000         ; Translation
+        RotationAxis          0.000 -1.000 0.000        ; Rotation axis
+        RotationAmount        0.000                     ; Rotation (in degrees)
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,15 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		  'Endgame (Fools Mate 2.1)'
+STARTPOS	   7299 229 -8636  
+STARTROT	   .50	
+FARCLIP		   23000		
+FOGSTART                  20000		
+FOGCOLOR	    0 0 0 
+WORLDRGBPER        95             
+MODELRGBPER	    85
+ENVSTILL	   'levels\Endgame\endx.bmp' 		
+		
+	

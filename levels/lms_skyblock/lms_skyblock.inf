@@ -1,0 +1,20 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'LMS Skyblock'
+STARTPOS        -202 -440 665
+STARTPOSREV     -202 -440 665
+STARTROT        0
+STARTROTREV     0.5
+STARTGRID       3
+STARTGRIDREV    3
+FARCLIP         1000000
+FOGSTART        980000
+FOGCOLOR        0 0 0
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
+MUSIC            'levels\lms_skyblock\cat.mp3'

@@ -1,0 +1,112 @@
+ _   _   _                              _          _
+| | / / (_)  _     _     ____   ____   \ \        / /  _   _   ____   ____   _      __
+| |/ /   _  | |   | |   |  __| | __ |   \ \      / /  | | | | |  __| |  __| | |    / _)
+|   (   | | | |   | |   | |_   |   _|    \ \_/\_/ /   | |_| | | (_   | (_   | |   (_(_
+| |\ \  | | | |_  | |_  |  _)  | \ \      \      /    |  _  | |  _)  |  _)  | |_   _) )
+|_| \_\ |_| |___| |___| |____| |_|\_\      \_/\_/     |_| |_| |____| |____| |___| (__/
+ _____________________________________________________________________________________
+(_____________________________________________________________________________________)
+
+                                  **********
+***********************************FRANCAIS***********************************
+                                  **********
+
+Sortie de nulle part, une route suspendue en plein milieu du ciel... Et bin figurez-vous qu'on l'a trouvée quand même !
+Et pas que nous, les voitures de Re-Volt aussi... Mais là, la route commence a plier de partout et c'est un peu
+chaotique... Le meilleur moyen de prendre les virages n'est plus forcément par le centre.
+
+
+
+
+********
+
+Construction : Killer Wheels
+Outils : 3ds max 7, RVTMod 7, MAKEITGOOD, paint shop pro 7 ( tout en 7...'Marrant ).
+Temps de realisation : Bopf...Encore un mystère.
+
+********
+
+Merci à tous ceux qui ont et qui continuent de jouer, de créer et d'aider dans Re-Volt.
+Sans eux les tonnes d'heures de plaisir ne seraient pas là, merci encore.
+Merci spécialement aux créateurs de Re-Volt, créateurs de RVTmod7, ainsi qu'à Harry Plotter !!!
+Pardon pour ceux que j'oublie !
+
+********
+
+2-3 petits bugs :
+Les reflets, ou "Brillance" sur les rebords du circuit peuvent causer des petits bugs sur les carrosseries des voitures
+voisines, pas de panique. Les voitures peuvent devenir toutes bleues pendant un court instant. A certains endroits les
+reflets disparaissent, c'est aussi normal, bien que ce ne soit pas désiré...
+Un petit problème de reposition, a priori réglé, au niveau de la première épingle.
+Si toutefois vous rencontrez des problèmes, n'hésitez pas à le faire savoir !
+
+********
+
+Note: dans le coin supérieur gauche un petit cadre "Replay" indique que le ralenti "Replay" possède des caméras
+placées sur le circuit, ou pour jouer en utilisant "TVTIME" et en appuyant sur F5 en jeu.
+Pour jouer le circuit en inversé (Reverse), il faudra attendre un peu... ;)
+
+********
+
+Bon jeu ! :)
+
+
+
+
+*********
+-> Le cpu fait un tour en 28.151s avec la "Humma", mais pas vous. <-
+
+
+
+                                  ********
+***********************************ENGISH***********************************
+                                  ********
+
+Caution!
+
+Out from nowhere, a floating road in the sky... And Re-Volt cars too !
+The road starts to fold everywhere and it become a little chaotic...
+May be the best way to take the turns is no longer what you think...
+
+
+
+
+
+
+********
+
+Build : Killer Wheels
+Tools used : 3ds max 7, RVTMod 7, MAKEITGOOD, paint shop pro 7.
+Time of work : Still a mystery
+
+********
+
+Thanks to all who played and who are still playing, for its creation and help to Re-volt.
+Without them, hours of pleasure playing this game wouldn’t exist, thanks again.
+Special thanks to the creators of Re-Volt and the creators of RVTmod7, and also to Harry Plotter !!!
+Sorry for those I forgot !
+
+********
+
+Know bugs :
+Problems due to env-mapping, like blue cars, don't worrie.
+Also a little problem with reposition in the first U-Turn, should be fixed.
+Anyway, if you encounter some troubles, just tell it !
+
+********
+
+PD : On top left corner, a little square saying “Replay” shows that “replay” mode is available.
+You can also play using TVTIME mode (enter TVTIME instead of your name) by pressing F5 during the game.
+To race the track in reverse mode, you'll have to wait a little more... ;)
+
+********
+
+Enjoy :)
+
+
+
+*********
+-> Cpu complete a lap in 28.151s with "Humma", could you ? <-
+
+
+I admits that my translation is not brilliant. I hope that you didn't understand anything. You didn't miss anything.

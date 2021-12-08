@@ -1,0 +1,82 @@
+The Bunker / Revolt Custom Track
+Copyright © javildesign.com
+
+September 6, 2014 version 1.0
+
+BugFixes.
+September 13, 2014 *.npc updated (camara zooming, location tunnel Terminal, fixed)
+September 13, 2014 *.w updated (texture pipes not double sided, location tunnel Terminal, fixed)
+September 8, 2014 *.npc updated (roadblock fence no collision top part, location exit automatic door 1, fixed)
+
+---
+
+Update your version of Revolt!
+http://jigebren.free.fr/games/pc/re-volt/wolfr4/ for the 1207 Patch OR better, use:
+http://rv12.revoltzone.net/downloads.php for the latest Revolt 1.2.
+
+---
+
+About.
+This track is made in Blender 2.70 using the Jigebren Plugin.
+The idea of this track started more then a year ago.
+First I made some preparations for an industrial area track but
+during that project the idea changed to an indoor track.
+Around March of 2014 I managed to create a raw track which I was able to build on.
+With some help of Jigebren and some help on RVLive I was able to finish version 1.0.
+
+---
+
+Applications.
+I used Blender 2.70 and Photoshop CS2.
+
+---
+
+Textures.
+I made all the bitmaps designs myself. 
+Some images, like signs, metal doors and the brick wall ect. are not mine and came from texture libraries or found via a search engine.
+
+---
+
+About the track.
+The track uses .viziboxes as optimal as possible.
+Also the track uses a custom folder. In this custom folder you will find ABCblock.hul and ABCblock.m which is a brick. (revolt 1.2 only)
+The *.fob is loaded from the custom folder so older versions of Revolt also are supported. (no brick objects)
+The .ncp is optimized and I kept the size as small as possible.
+The track has 4 shortcuts, or on 4 places you can choose which directions you may go.
+No reverse mode yet.
+
+---
+
+Technical data.
+(.w) has 10763 vertices (9708 faces).
+(.ncp) has 2587 vertices (3143 faces).
+I did a quick game gauge test:
+171.64 Re-Volt v1.00
+112 Min
+244 Max
+This is using the 1024x1024 texures. You can imagine what the fps will do if you use the 512x512 textures.
+My personal settings are 1024x600 windowed mode, using the LINEAR TEXTURE FILTER in the advanced  (video) render settings.
+I think the LINEAR texture filter displays the_bunker textures better. (no flickering lines in distance).
+
+---
+
+Known bugs.
+Although I know that there will be more, I only found 1 bug so far.
+Racing the track backwards jumping over a specific threshold will crash and flip the car, in some cases.
+I didn't found out why the car should do that.
+Please report bugs to [mail at javildesign dot com] so I can update the track if needed.
+
+---
+
+Thanks.
+Thanks to Jigebren for the awesome plugin and the help he gave me.
+Thanks to the people on RVLive forum that helped me understand some parts of the MAKEITGOOD mode.
+
+---
+
+Donations.
+I have spent a lot of time making this track (about 8 months).
+To keep me motivated, donations are always welcome.
+See http://ko-fi.com/?i=8d16e6e1c36dc96 to buy me a coffee, or visit www.javildesign.com for more info.
+
+---

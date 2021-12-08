@@ -1,0 +1,18 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME            'The Gorge'
+STARTPOS	-6000. 1500. 3000.  
+STARTPOSREV	-50900. 2700. 22500 
+STARTROT	0.50	
+STARTROTREV	0.00		
+FARCLIP		10000		
+FOGSTART	500		
+FOGCOLOR	100 100 100 	
+VERTFOGSTART	0		
+VERTFOGEND	0		
+WORLDRGBPER     75             
+MODELRGBPER	75	
+INSTANCERGBPER	75	
+REDBOOK		10 10

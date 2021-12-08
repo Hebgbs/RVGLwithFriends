@@ -1,0 +1,21 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'YABBA DABBA DOO!'
+STARTPOS        800.000000 -250.000000 1750.000000
+STARTPOSREV     0 0 0
+STARTROT        0.050000
+STARTROTREV     0.0
+STARTGRID       1
+STARTGRIDREV    0
+FARCLIP         18000
+FOGSTART        15000
+FOGCOLOR        128 128 192
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
+MUSIC		'music\io\ageless.mp3'
+REDBOOK		1 3

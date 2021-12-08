@@ -1,0 +1,21 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'The Bunker'
+STARTPOS        -125.000000 132.000000 0.000000
+STARTPOSREV     0 0 0
+STARTROT        0.500000
+STARTROTREV     0.0
+STARTGRID       3
+STARTGRIDREV    0
+FARCLIP         20000
+FOGSTART        8000
+FOGCOLOR        0 0 0
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
+MUSIC		'music\io\snazzy'
+REDBOOK		4 9

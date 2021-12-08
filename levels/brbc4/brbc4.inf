@@ -1,0 +1,32 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME			'SNES Battle Course 4'		; The name of the level as seen in-game
+STARTPOS		0 -400 -2000  			; Start position of the car
+STARTROT		0						; Start rotation of the car (0 - 1)
+FARCLIP		2400000					; Far clipping distance (draw distance)
+FOGSTART		2300000					; Fog start (slightly less than FARCLIP)
+FOGCOLOR		0 0 0 					; Fog and background color
+VERTFOGSTART	0						; Vertical fog start (as in rooftops)
+VERTFOGEND		0						; Vertical fog end (as in rooftops)
+WORLDRGBPER     100        				; RGB percent of original world gouraud
+MODELRGBPER	100						; RGB percent of original model gouraud
+INSTANCERGBPER	100						; RGB percent of original instance gouraud
+MUSIC			"music\mute.wav"
+GAMETYPE		1
+TEXTUREPROPS	0 1 1 1
+TEXTUREPROPS	1 1 1 1
+TEXTUREPROPS	2 1 1 1
+TEXTUREPROPS	3 1 1 1
+TEXTUREPROPS	4 1 1 1
+TEXTUREPROPS	5 1 1 1
+TEXTUREPROPS	6 1 1 1
+TEXTUREPROPS	7 1 1 1
+TEXTUREPROPS	8 1 1 1
+TEXTUREPROPS	9 1 1 1
+TEXTUREPROPS	10 1 1 1
+TEXTUREPROPS	11 1 1 1
+TEXTUREPROPS	12 1 1 1
+TEXTUREPROPS	13 1 1 1
+	

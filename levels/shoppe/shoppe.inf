@@ -1,0 +1,21 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Shoppe by scloink'
+STARTPOS        -2300.000000 -50.000000 -5500.000000
+STARTPOSREV     0 0 0
+STARTROT        0.250000
+STARTROTREV     0.0
+STARTGRID       3
+STARTGRIDREV    0
+FARCLIP         28000
+FOGSTART        5500
+FOGCOLOR        30 40 50
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     70	
+MODELRGBPER     70
+INSTANCERGBPER  70
+MIRRORS         1 0.6 0 256
+REDBOOK         4 5

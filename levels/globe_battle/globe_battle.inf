@@ -1,0 +1,18 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		'Christmas Globe Battle'	;The name of the level as seen in-game
+GAMETYPE 1
+STARTPOS	0 0 0	;Start position of the car
+STARTROT	0		;Start rotation of the car (0 - 1)
+STARTGRID	3		;Starting grid type
+FOGSTART        	45000
+FARCLIP        		90000
+FOGCOLOR      		0 0 0
+VERTFOGSTART   		0
+VERTFOGEND     		0
+WORLDRGBPER    		100
+MODELRGBPER     	100
+INSTANCERGBPER 		100
+REDBOOK		4 9

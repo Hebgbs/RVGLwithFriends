@@ -1,0 +1,21 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Overground'
+STARTPOS        14000.000000 0.000000 14000.000000
+STARTPOSREV     0 0 0
+STARTROT        0.000000
+STARTROTREV     0.0
+STARTGRID       0
+STARTGRIDREV    0
+FARCLIP         25000
+FOGSTART        0
+FOGCOLOR        128 128 128
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     80
+MODELRGBPER     80
+INSTANCERGBPER  80
+MUSIC		'music\io\trance\trider'
+REDBOOK	1 3

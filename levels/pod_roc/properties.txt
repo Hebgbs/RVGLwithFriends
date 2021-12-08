@@ -1,0 +1,7 @@
+{
+  PICKUPS {
+    EnvColor       255 255 255
+    LightColor     102 255 0
+  }
+
+}

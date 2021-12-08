@@ -1,0 +1,68 @@
+﻿                    # # # # # # # # # # # # # # # # # # #
+                    #  _____________________ ________   #
+                    #  \_   _____/\____    //  _____/   #
+                    #   |    __)    /     //   \  ___   #
+                    #   |     \    /     /_\    \_\  \  #
+                    #   \___  /   /_______ \\______  /  #
+                    #       \/            \/       \/   #
+                    #				    	#
+                    # # # # # # # # # # # # # # # # # # #
+
+Car information
+__________________________________________________________________________
+
+Car name        	: Quadralite
+
+Car Type  		: Original
+
+Top speed		: 42 Mph
+
+Rating/Class   		: Pro
+
+Installed folder       	: ...\cars\quadralite
+
+Description           	: ROTOR MASTERPACK was the idea i had in mind, but
+			  back then the cars were made to bring Rollcage into
+			  Re-Volt, with 3D modelled thrusters and boosters.
+			  For this project alone, i'm strictly making more
+			  RotoR custom cars, for probably semi to super class.
+			  I'm Ziggy, part of Globetrotters Garage, hope that
+			  you peeps like my creations.
+
+
+Author Information
+__________________________________________________________________________
+
+Author Name 	: Fr13ndz0n3dguy
+
+Email Address   : fatahzahran@gmail.com
+
+
+Construction
+__________________________________________________________________________
+
+Base           	: Vertex/box, it's an original
+
+Editor(s) used 	: Blender and Paint.net
+
+
+Additional Credits 
+__________________________________________________________________________
+
+-Thanks to the official community who continues to make Re-Volt a fun and 
+attractive game !
+-R6TE and Mightycucumber who taught me blender basics
+-Burner94 for teaching me how to make custom hull on blender
+-Norfair for teaching me how to make ambient occlusion on blender
+-MightyCucumber for the response and pointing things out on the textures
+-All the good responses from the people in Globetrotters Garage
+-All the updates of RVGL
+
+
+Copyright / Permissions
+__________________________________________________________________________
+
+You may do whatever you want with this car but you have to give us credits
+and give credit to the original author.
+Do not distribute without authorization.
+ 

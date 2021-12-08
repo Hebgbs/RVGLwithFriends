@@ -1,0 +1,22 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Molten Caverns'
+STARTPOS        -560 -50 -650
+STARTPOSREV     -560 -50 -650
+STARTROT        0.000000
+STARTROTREV     0.5
+STARTGRID       1
+STARTGRIDREV    0
+FARCLIP        33333
+FOGSTART        0
+FOGCOLOR        42 35 14
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     69
+MODELRGBPER     69
+INSTANCERGBPER  69
+MUSIC		'music\io\atomic'
+REDBOOK 	1 3
+DIFFICULTY 	2

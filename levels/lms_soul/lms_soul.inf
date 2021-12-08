@@ -1,0 +1,20 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'LMS Soul Tosh'
+STARTPOS        0.000000 0.000000 0.000000
+STARTPOSREV     0 0 0
+STARTROT        0.000000
+STARTROTREV     0.0
+STARTGRID       3
+STARTGRIDREV    3
+FARCLIP         250000000
+FOGSTART        2000
+FOGCOLOR        15 15 15
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
+REDBOOK		1 9

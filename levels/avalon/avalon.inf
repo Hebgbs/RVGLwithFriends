@@ -1,0 +1,16 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME 'Avalon'
+STARTPOS -791 107 3200
+STARTROT 0.75	
+FARCLIP 65000  
+FOGSTART 60000
+FOGCOLOR 0 0 0	
+WORLDRGBPER 95  
+MODELRGBPER 85
+MIRRORS 0 0.60 0 128
+SHADOWBOX	-75
+MP3 'levels\avalon\custom\music.mp3'
+

@@ -1,0 +1,20 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		'Palm Marsh';The name of the level as seen in-game
+STARTPOS	-6300 -500 2750  ;Start position of the car
+STARTPOSREV	-5300 -150 13750  ;Start position of the car
+STARTROT	0.95		;Start rotation of the car (0 - 1)
+STARTROTREV	0.575		;Start rotation of the car (0 - 1)
+FARCLIP		24000		;Far clipping distance (draw distance)
+FOGSTART	23000		;Fog start (slightly less than FARCLIP)
+FOGCOLOR	32 200 200	 	;Fog and background color
+VERTFOGSTART	0		;Vertical fog start (as in rooftops)
+VERTFOGEND	0		;Vertical fog end (as in rooftops)
+WORLDRGBPER     100             ;RGB percent of original world gouraud
+MODELRGBPER	100		;RGB percent of original model gouraud
+INSTANCERGBPER	90		;RGB percent of original instance gouraud
+MIRRORS		0 0.75 0 256	;Type - mix - intensity start - distance
+MP3		'Toys For The Boys.mp3'
+REDBOOK		4 9

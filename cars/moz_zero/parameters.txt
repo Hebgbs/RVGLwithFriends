@@ -1,0 +1,341 @@
+{
+
+;============================================================
+;============================================================
+; F-Zero
+;============================================================
+;============================================================
+Name      	"F-Zero SX"
+
+
+;====================
+; Model Filenames
+;====================
+
+MODEL 	0 	"cars\moz_zero\body.prm"
+MODEL 	1 	"cars\moz_zero\wheel-l.prm"
+MODEL 	2 	"cars\moz_zero\wheel-r.prm"
+MODEL 	3 	"NONE"
+MODEL 	4 	"NONE"
+MODEL 	5 	"NONE"
+MODEL 	6 	"NONE"
+MODEL 	7 	"NONE"
+MODEL 	8 	"NONE"
+MODEL 	9 	"NONE"
+MODEL 	10 	"NONE"
+MODEL 	11 	"NONE"
+MODEL 	12 	"NONE"
+MODEL 	13 	"NONE"
+MODEL 	14 	"NONE"
+MODEL 	15 	"NONE"
+MODEL 	16 	"NONE"
+MODEL 	17 	"cars\misc\Aerial.m"
+MODEL 	18 	"cars\misc\AerialT.m"
+TPAGE 	"cars\moz_zero\car.bmp"
+;)TCARBOX cars\moz_zero\carbox.bmp
+;)TSHADOW "cars\moz_zero\shadow.bmp"
+;)SHADOWTABLE -39.0 39.0 82.0 -85.0 -5.0
+COLL 	"cars\moz_zero\hull.hul"
+EnvRGB 	200 200 200
+
+;====================
+; Stuff mainly for frontend display and car selectability
+;====================
+
+BestTime   	TRUE
+;)Statistics    TRUE
+Selectable 	TRUE
+Class      	1 			
+Obtain     	0 			
+Rating     	4 			
+TopEnd     	3748.046387 			
+Acc         	6.616267 			
+Weight     	1.800000 			
+Handling   	50.000000 			
+Trans      	0 			
+MaxRevs    	0.500000 			
+
+;====================
+; Handling related stuff
+;====================
+
+SteerRate  	3.000000 			
+SteerMod   	0.400000 			
+EngineRate 	4.500000 			
+TopSpeed   	43.000000 			
+DownForceMod	2.000000 			
+CoM        	0.000000 -15.000000 -3.000000 		
+Weapon     	0.000000 -32.000000 64.000000 		
+
+;====================
+; Car Body details
+;====================
+
+BODY {		; Start Body
+ModelNum   	0 			
+Offset     	0, 0, 0 		
+Mass       	1.800000
+Inertia    	1300.000000 0.000000 0.000000
+           	0.000000 2000.000000 0.000000
+           	0.000000 0.000000 700.000000
+Gravity		2200 			
+Hardness   	0.000000
+Resistance 	0.001000 			
+AngRes     	0.001000 			
+ResMod     	25.000000 			
+Grip       	0.010000 			
+StaticFriction 0.800000
+KineticFriction 0.400000
+}     		; End Body
+
+;====================
+; Car Wheel details
+;====================
+
+WHEEL 0 { 	; Start Wheel
+ModelNum 	1
+Offset1  	-27.500000 13.500000 37.000000
+Offset2  	0.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	TRUE
+SteerRatio  	-0.250000
+EngineRatio 	17000.000000
+Radius      	12.000000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	5.000000
+SkidWidth   	14.000000
+ToeIn       	0.000000
+AxleFriction    	0.020000
+Grip            	0.017000
+StaticFriction  	1.900000
+KineticFriction 	1.800000
+}          	; End Wheel
+
+WHEEL 1 { 	; Start Wheel
+ModelNum 	2
+Offset1  	27.500000 13.500000 37.000000
+Offset2  	0.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	TRUE
+SteerRatio  	-0.250000
+EngineRatio 	17000.000000
+Radius      	12.000000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	5.000000
+SkidWidth   	14.000000
+ToeIn       	0.000000
+AxleFriction    	0.020000
+Grip            	0.017000
+StaticFriction  	1.900000
+KineticFriction 	1.800000
+}          	; End Wheel
+
+WHEEL 2 { 	; Start Wheel
+ModelNum 	1
+Offset1  	-28.500000 13.500000 -40.000000
+Offset2  	0.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	FALSE
+SteerRatio  	1.000000
+EngineRatio 	17000.000000
+Radius      	12.000000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	5.000000
+SkidWidth   	14.000000
+ToeIn       	0.000000
+AxleFriction    	0.050000
+Grip            	0.016000
+StaticFriction  	1.850000
+KineticFriction 	1.750000
+}          	; End Wheel
+
+WHEEL 3 { 	; Start Wheel
+ModelNum 	2
+Offset1  	28.500000 13.500000 -40.000000
+Offset2  	0.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	FALSE
+SteerRatio  	1.000000
+EngineRatio 	17000.000000
+Radius      	12.000000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	5.000000
+SkidWidth   	14.000000
+ToeIn       	0.000000
+AxleFriction    	0.050000
+Grip            	0.016000
+StaticFriction  	1.850000
+KineticFriction 	1.750000
+}          	; End Wheel
+
+
+;====================
+; Car Spring details
+;====================
+
+SPRING 0 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	850.000000
+Damping     	13.500000
+Restitution 	-0.850000
+}           	; End Spring
+
+SPRING 1 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	850.000000
+Damping     	13.500000
+Restitution 	-0.850000
+}           	; End Spring
+
+SPRING 2 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	850.000000
+Damping     	13.500000
+Restitution 	-0.850000
+}           	; End Spring
+
+SPRING 3 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	850.000000
+Damping     	13.500000
+Restitution 	-0.850000
+}           	; End Spring
+
+
+;====================
+; Car Pin details
+;====================
+
+PIN 0 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 1 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 2 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 3 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+
+;====================
+; Car axle details
+;====================
+
+AXLE 0 {   	; Start Axle
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End axle
+
+AXLE 1 {   	; Start Axle
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End axle
+
+AXLE 2 {   	; Start Axle
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End axle
+
+AXLE 3 {   	; Start Axle
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End axle
+
+
+;====================
+; Car spinner details
+;====================
+
+SPINNER {   	; Start spinner
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Axis        	0.000000 1.000000 0.000000
+AngVel      	0.000000
+}           	; End Spinner
+
+
+;====================
+; Car Aerial details
+;====================
+
+AERIAL {    	; Start Aerial
+SecModelNum 	17
+TopModelNum 	18
+Offset      	-26.000000 -5.000000 35.000000
+Direction   	0.000000 -1.000000 0.000000
+Length      	17.000000
+Stiffness   	2000.000000
+Damping     	5.500000
+}           	; End Aerial
+
+
+;====================
+; Car AI details
+;====================
+
+AI {        	 ;Start AI
+UnderThresh 	530.960083
+UnderRange  	1390.939941
+UnderFront	 	2228.502197
+UnderRear   	532.879944
+UnderMax    	0.395497
+OverThresh  	2521.723389
+OverRange   	1399.063965
+OverMax     	0.488563
+OverAccThresh  	83.449997
+OverAccRange   	2113.864502
+PickupBias     	3276
+BlockBias      	3276
+OvertakeBias   	16383
+Suspension     	0
+Aggression     	0
+}           	; End AI
+
+;====================
+; ;)Camera details
+;====================
+
+;)CAMATTACHED {		; Start Camera
+;)HoodOffset 	-0.000000 -40.810001 -195.009995 		; Offset from model center
+;)HoodLook   	0.020000 		; Look angle (-0.25 to 0.25, 0.00 - straight ahead)
+;)RearOffset 	-0.000000 -40.810001 230.009995
+;)RearLook   	0.020000
+}            		; End Camera
+
+}
+
+C1FC6B7E

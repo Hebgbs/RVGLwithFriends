@@ -1,0 +1,35 @@
+================================================================================
+================================================================================
+  C H A N G E L O G  -  M K 6 4  W A R I O  S T A D I U M
+================================================================================
+================================================================================
+
+
+---------------------------------------
+  2017-04-17 by Marv
+---------------------------------------
+    
+    + Cleanup and fixes
+        + Removed ~50 duplicate Barrel objects at (0, 0, 0) from the .fob file
+          which now hugely improves the frame rate on slow CPUs
+        + Removed envroll and envstill from the custom folder (had no purpose)
+        + Converted all textures from BMP to PNG (down from 107mb to 30mb)
+        + Removed MIG backup file (mk64_ws.ca-)
+        + Removed Portal file (mk64_ws.por)
+        + Cleaned up .inf file layout
+        + Set FOGSTART from 100 to 1000 (100 made ENV invisible)
+        + Set all RGBPER values to 100 
+          (since the stadium is a bright environment)
+    
+    + Graphical
+        + Remade top and bottom sky pages to fit the sides' colors
+    
+    + Audio
+        + Replaced animal1.wav as it was corrupted
+        + Replaced mk64_ws.mp3 due to overdrive/clipping,
+          taken from (https://downloads.khinsider.com/game-soundtracks/album/
+                      mario-kart-64/03-3-raceways-wario-stadium.mp3)
+
+
+================================================================================
+================================================================================

@@ -1,0 +1,20 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		'Road in the Sky';The name of the level as seen in-game
+STARTPOS	265 -100 -1725  ;Start position of the car
+STARTPOSREV	65 -250 -2000  ;Start position of the car
+STARTROT	0.5		;Start rotation of the car (0 - 1)
+STARTROTREV	0.0		;Start rotation of the car (0 - 1)
+FARCLIP		27000		;Far clipping distance (draw distance)
+FOGSTART	1000		;Fog start (slightly less than FARCLIP)
+FOGCOLOR	32 200 200	 	;Fog and background color
+VERTFOGSTART	0		;Vertical fog start (as in rooftops)
+VERTFOGEND	0		;Vertical fog end (as in rooftops)
+WORLDRGBPER     100             ;RGB percent of original world gouraud
+MODELRGBPER	100		;RGB percent of original model gouraud
+INSTANCERGBPER	90		;RGB percent of original instance gouraud
+MIRRORS		0 0.75 0 256	;Type - mix - intensity start - distance
+MP3		'FLIPPED.mp3'
+REDBOOK 	1 3

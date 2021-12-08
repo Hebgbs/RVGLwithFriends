@@ -1,0 +1,43 @@
+MATERIAL {
+  ID               10               ; ID of the material to replace [0 - 26]
+  Name             "Ice 1 Snow"     ; Display name
+
+  Spark            true             ; Material emits particles
+  Skid             true             ; Skid marks appear on material
+  OutOfBounds      false            ; Not implemented
+  Corrugated       true             ; Material is bumpy
+  Moves            false            ; Moves cars like museum conveyors
+  Dusty            true             ; Material emits dust
+
+  Roughness        0.75              ; Roughness of the material
+  Grip             0.75              ; Grip of the material
+  Hardness         0.2              ; Hardness of the material
+
+  SkidSound        7                ; Sound when skidding [0:Normal, 1:Rough]
+  ScrapeSound      5                ; Car body scrape [0:Normal]
+
+  SkidColor        200 200 255      ; Color of the skid marks
+  CorrugationType  2                ; Type of bumpiness [0 - 7]
+  DustType         2                ; Type of dust
+  Velocity         0.0 0.0 0.0      ; Speed and direction cars are moved in
+
+}
+
+DUST {
+  ID              2                             ; Dust ID [0 - 31]
+  Name            "SAND"                      ; Display name
+
+  SparkType       2                             ; Particle to emit
+  ParticleChance  0.600000                      ; Probability of a particle
+  ParticleRandom  0.600000                      ; Probability variance
+
+  SmokeType       29                            ; Smoke particle to emit
+  SmokeChance     0.300000                      ; Probability of a smoke part.
+  SmokeRandom     0.600000                      ; Probability variance
+}
+
+PICKUPS {
+  SpawnCount      64 64                           ; Initial and per-player count
+  EnvColor        255 255 128                   ; Color of shininess (RGB)
+  LightColor      10 10 10                      ; Color of light (RGB)
+}

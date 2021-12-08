@@ -1,0 +1,13 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME 'Christmas Snow Globe'
+STARTPOS 5643 -706 1071 
+STARTROT 0.47
+FARCLIP 90000		
+FOGSTART 90000		
+FOGCOLOR 0 0 0
+WORLDRGBPER 75            
+MODELRGBPER	75		
+ENVSTILL 'levels\christmas_globe\christmas_globek.bmp'

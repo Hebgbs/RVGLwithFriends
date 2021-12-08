@@ -1,0 +1,14 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME 'Fukushima'
+STARTPOS 14171 426 11276
+STARTROT 0.75
+FARCLIP 50000
+FOGSTART 47000
+FOGCOLOR 0 0 0
+WORLDRGBPER 70
+MODELRGBPER 65
+SHADOWBOX	-85
+ENVSTILL 'levels\fukushima\fukushimaK.bmp'

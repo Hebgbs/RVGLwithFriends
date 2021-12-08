@@ -1,0 +1,18 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'DAYTAGA 500'
+STARTPOS        0 -400 0
+STARTROT        0.000000
+STARTGRID       1
+FARCLIP		12000		
+FOGSTART	500		
+FOGCOLOR        9 9 17
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     69
+MODELRGBPER     69
+INSTANCERGBPER  69
+GAMETYPE	1
+REDBOOK		1 9

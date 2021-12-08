@@ -1,0 +1,324 @@
+{
+
+;============================================================
+;============================================================
+; Dakota Mystery
+;============================================================
+;============================================================
+Name       	"Dakota Mystery"
+
+;====================
+; Models
+;====================
+
+MODEL 	0	"cars\dakotamystery\body.prm"
+MODEL 	1	"cars\dakotamystery\wheelfl.prm"
+MODEL 	2	"cars\dakotamystery\wheelfr.prm"
+MODEL 	3	"cars\dakotamystery\wheelbl.prm"
+MODEL 	4	"cars\dakotamystery\wheelbr.prm"
+MODEL 	5	"NONE"
+MODEL 	6	"NONE"
+MODEL 	7	"cars\dakotamystery\options.prm"
+MODEL 	8	"cars\dakotamystery\spring.prm"
+MODEL 	9	"cars\dakotamystery\axle.prm"
+MODEL 	10	"NONE"
+MODEL 	11	"NONE"
+MODEL 	12	"NONE"
+MODEL 	13	"NONE"
+MODEL 	14	"NONE"
+MODEL 	15	"NONE"
+MODEL 	16	"NONE"
+MODEL 	17	"cars\misc\Aerial.m"
+MODEL 	18	"cars\misc\AerialT.m"
+TPAGE 	       "cars\dakotamystery\car.bmp"
+;)TCARBOX  	"cars\dakotamystery\carbox.bmp"
+;)TSHADOW 	"cars\dakotamystery\shadow.bmp"
+;)SHADOWTABLE 	-85 85 95 -90 -34.8
+COLL 		"cars\dakotamystery\hull.hul"
+;)SFXENGINE 	"cars\dakotamystery\engine.wav"
+;)SFXHONK 	"cars\dakotamystery\honk.wav"
+EnvRGB 		100 100 100
+
+;====================
+; Frontend
+;====================
+
+BestTime   	TRUE
+Selectable 	TRUE
+;)Statistics 	TRUE
+Class      	1
+Obtain     	0
+Rating     	3
+TopEnd     	3525.612549
+Acc        	8.95000
+Weight     	3.500000
+Trans      	0
+MaxRevs    	0.500000
+
+;====================
+; Handling
+;====================
+
+SteerRate  	5.000000
+SteerMod   	0.000000
+EngineRate 	4.500000
+TopSpeed   	44.000000
+DownForceMod	2.000000
+CoM        	0.000000 4.000000 -2.000000
+Weapon     	0.000000 -32.000000 64.000000
+
+;====================
+; Body
+;====================
+
+BODY {
+ModelNum   	0
+Offset     	0.000000 0.000000 0.000000
+Mass       	3.500000
+Inertia    	7000.000000 0.000000 0.000000
+		0.000000 12600.000000 0.000000
+		0.000000 0.000000 5000.000000
+Gravity    	2200
+Hardness   	0.000000
+Resistance 	0.00100
+AngRes     	0.001000
+ResMod     	25.000000
+Grip       	0.010000
+StaticFriction 	0.800000
+KineticFriction 0.400000
+}
+
+;====================
+; Wheels
+;====================
+
+WHEEL 0 {
+ModelNum 	1
+Offset1  	-35.000000 0.000000 44.000000
+Offset2  	-10.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	TRUE
+SteerRatio  	-0.250000
+EngineRatio 	38000.000000
+Radius      	21.500000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	26.000000
+SkidWidth   	22.000000
+ToeIn       	0.000000
+AxleFriction    	0.020000
+Grip            	0.018000
+StaticFriction  	1.720000
+KineticFriction 	1.630000
+}
+
+WHEEL 1 {
+ModelNum 	2
+Offset1  	35.000000 0.000000 44.000000
+Offset2  	10.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	TRUE
+SteerRatio  	-0.250000
+EngineRatio 	38000.000000
+Radius      	21.500000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	26.000000
+SkidWidth   	22.000000
+ToeIn       	0.000000
+AxleFriction    	0.020000
+Grip            	0.018000
+StaticFriction  	1.720000
+KineticFriction 	1.630000
+}
+
+WHEEL 2 {
+ModelNum 	3
+Offset1  	-35.000000 0.000000 -40.000000
+Offset2  	-10.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	TRUE
+SteerRatio  	0.030000
+EngineRatio 	38000.000000
+Radius      	21.500000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	26.000000
+SkidWidth   	22.000000
+ToeIn       	0.000000
+;)Camber    	0.000000
+AxleFriction    	0.050000
+Grip            	0.018000
+StaticFriction  	1.690000
+KineticFriction 	1.610000
+}
+
+WHEEL 3 {
+ModelNum 	4
+Offset1  	35.000000 0.000000 -40.000000
+Offset2  	10.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	TRUE
+SteerRatio  	0.030000
+EngineRatio 	38000.000000
+Radius      	21.500000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	26.000000
+SkidWidth   	22.000000
+ToeIn       	0.000000
+;)Camber    	0.000000
+AxleFriction    	0.050000
+Grip            	0.018000
+StaticFriction  	1.690000
+KineticFriction 	1.610000
+}
+
+;====================
+; Springs
+;====================
+
+SPRING 0 {
+ModelNum    	8
+Offset      	-20.000000 -35.000000 40.000000
+Length      	15.500000
+Stiffness   	225.000000
+Damping     	7.000000
+Restitution 	-0.900000
+}
+
+SPRING 1 {
+ModelNum    	8
+Offset      	20.000000 -35.000000 40.000000
+Length      	15.500000
+Stiffness   	225.000000
+Damping     	7.000000
+Restitution 	-0.900000
+}
+
+SPRING 2 {
+ModelNum    	8
+Offset      	-20.000000 -35.000000 -36.000000
+Length      	15.500000
+Stiffness   	225.000000
+Damping     	7.000000
+Restitution 	-0.900000
+}
+
+SPRING 3 {
+ModelNum    	8
+Offset      	20.000000 -35.000000 -36.000000
+Length      	15.500000
+Stiffness   	225.000000
+Damping     	7.000000
+Restitution 	-0.900000
+}
+
+;====================
+; Pins
+;====================
+
+PIN 0 {
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}
+
+PIN 1 {
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}
+
+PIN 2 {
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}
+
+PIN 3 {
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}
+
+;====================
+; Axles
+;====================
+
+AXLE 0 {
+ModelNum    	9
+Offset      	-5.000000 -17.000000 35.000000
+Length      	20.000000
+}
+
+AXLE 1 {
+ModelNum    	9
+Offset      	5.000000 -17.000000 35.000000
+Length      	20.000000
+}
+
+AXLE 2 {
+ModelNum    	9
+Offset      	-5.000000 -17.000000 -38.000000
+Length      	20.000000
+}
+
+AXLE 3 {
+ModelNum    	9
+Offset      	5.000000 -17.000000 -38.000000
+Length      	20.000000
+}
+
+;====================
+; Spinner
+;====================
+
+SPINNER {
+ModelNum    	7
+Offset     	0.000000 0.000000 0.000000
+Axis        	0.000000 1.000000 0.000000
+AngVel      	0.000000
+}
+
+;====================
+; Aerial
+;====================
+
+AERIAL {
+SecModelNum 	17
+TopModelNum 	18
+Offset      	15.000000 -67.000000 -40.000000
+Direction   	0.000000 -1.000000 0.000000
+Length      	25.000000
+Stiffness   	2000.000000
+Damping     	5.500000
+}
+
+;====================
+; AI
+;====================
+
+AI {
+UnderThresh 	82.150000
+UnderRange  	3162.633545
+UnderFront	251.520004
+UnderRear   	1125.232666
+UnderMax    	0.271073
+OverThresh  	1704.070923
+OverRange   	1391.000000
+OverMax     	0.746230
+OverAccThresh  	113.930000
+OverAccRange   	2574.388916
+PickupBias     	16383
+BlockBias      	16383
+OvertakeBias   	16383
+Suspension     	9830
+Aggression     	0
+}
+
+94E9100F

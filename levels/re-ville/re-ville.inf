@@ -1,0 +1,22 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Re-Ville'
+STARTPOS        250.000000 -3000.000000 4750.000000
+STARTPOSREV     0 0 0
+STARTROT        0.000000
+STARTROTREV     0.0
+STARTGRID       1
+STARTGRIDREV    0
+FARCLIP         17000
+FOGSTART        16000
+FOGCOLOR        15 30 30
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     60
+MODELRGBPER     70
+INSTANCERGBPER  60
+MUSIC		'music\io\trance\zeta'
+REDBOOK		4 9
+  

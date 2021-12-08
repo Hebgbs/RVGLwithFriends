@@ -1,0 +1,13 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME 'Harbor Lights'
+STARTPOS 11364 -27 123 
+STARTROT 0.50		
+FARCLIP 99000		
+FOGSTART 99000	
+WORLDRGBPER 90
+MODELRGBPER 75
+SHADOWBOX	-85
+

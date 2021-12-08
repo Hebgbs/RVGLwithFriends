@@ -1,0 +1,341 @@
+{
+
+;============================================================
+;============================================================
+;      Mach 9
+;============================================================
+;============================================================
+Name      	"Mach 9"
+
+
+;====================
+; Model Filepaths
+;====================
+
+MODEL 	0 	"cars\mach9\body.prm"
+MODEL 	1 	"cars\mach9\wheelfl.prm"
+MODEL 	2 	"cars\mach9\wheelfr.prm"
+MODEL 	3 	"cars\mach9\wheelbl.prm"
+MODEL 	4 	"cars\mach9\wheelbr.prm"
+MODEL 	5 	"cars\mach9\spring.prm"
+MODEL 	6 	"NONE"
+MODEL 	7 	"NONE"
+MODEL 	8 	"NONE"
+MODEL 	9 	"cars\mach9\axle.prm"
+MODEL 	10 	"NONE"
+MODEL 	11 	"NONE"
+MODEL 	12 	"NONE"
+MODEL 	13 	"NONE"
+MODEL 	14 	"NONE"
+MODEL 	15 	"NONE"
+MODEL 	16 	"NONE"
+MODEL 	17 	"cars\misc\Aerial.m"
+MODEL 	18 	"cars\misc\AerialT.m"
+TPAGE 	"cars\mach9\car.bmp"
+COLL 	"cars\mach9\hull.hul"
+;)TCARBOX 	"cars\mach9\carbox.bmp"
+;)TSHADOW 	"cars\mach9\shadow.bmp"
+;)SHADOWINDEX 	-1
+;)SHADOWTABLE -39.3 39.3 66.7 -67.3
+EnvRGB 	200 200 200
+
+;====================
+; Stuff mainly for frontend display and car selectability
+;====================
+
+BestTime   	TRUE
+Selectable   	TRUE
+;)Statistics 	TRUE
+Class      	0 			; Engine type (0=Elec, 1=Glow, 2=Other)
+Obtain     	0 			; Obtain method
+Rating     	4 			; Skill level (rookie, amateur, ...)
+TopEnd     	3440.356201 			; Actual top speed (mph) for frontend bars
+Acc        	5.295046			; Acceleration rating (empirical)
+Weight     	1.8 			; Scaled weight (for frontend bars)
+Handling   	50 			; Handling ability (empirical and totally subjective)
+Trans      	0 			; Transmission type (calculate in game anyway...)
+MaxRevs    	0.5 			; Max Revs (for rev counter)
+
+;====================
+; Handling related stuff
+;====================
+
+SteerRate  	2.5 			; Rate at which steer angle approaches value from input
+SteerMod   	0.4 			; 
+EngineRate 	4.5 			; Rate at which Engine voltage approaches set value
+TopSpeed   	38 			; Car's theoretical top speed (not including friction...)
+DownForceMod	2 			; Down force modifier when car on floor
+CoM        	0 -5 0 		        ; Centre of mass relative to model centre
+Weapon     	0 -32 64 		; Weapon genration offset
+
+;====================
+; Car Body details
+;====================
+
+BODY {		; Start Body
+ModelNum   	0 			; Model Number in above list
+Offset     	-0.75, -11, -8 		; Calculated in game
+Mass       	1.8
+Inertia    	1250 0 0
+           	0 1500 0
+           	0 0 500
+Gravity		2200 			; No longer used
+Hardness   	0
+Resistance 	0.001 			; Linear air esistance
+AngRes     	0.001 			; Angular air resistance
+ResMod     	25 			; Ang air resistnce scale when in air
+Grip       	0.01 			; Converts downforce to friction value
+StaticFriction	0.8
+KineticFriction 0.4
+}     		; End Body
+
+;====================
+; Car Wheel details
+;====================
+
+WHEEL 0 { 	; Start Wheel
+ModelNum 	    1
+Offset1  	    -25 1 45
+Offset2  	    -3 0 0
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable   	TRUE
+SteerRatio  	-0.4
+EngineRatio 	20000
+Radius      	11.9
+Mass        	0.15
+Gravity     	2200
+MaxPos      	8
+SkidWidth   	10
+ToeIn       	0
+AxleFriction    	0.02
+Grip            	0.015
+StaticFriction  	1.5
+KineticFriction 	2
+}          	; End Wheel
+
+WHEEL 1 { 	; Start Wheel
+ModelNum 	    2
+Offset1  	    25 1 45
+Offset2  	    3 0 0
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable   	TRUE
+SteerRatio  	-0.4
+EngineRatio 	20000
+Radius      	11.9
+Mass        	0.15
+Gravity     	2200
+MaxPos      	8
+SkidWidth   	10
+ToeIn       	0
+AxleFriction    	0.02
+Grip            	0.015
+StaticFriction  	1.5
+KineticFriction 	2
+}          	; End Wheel
+
+WHEEL 2 { 	; Start Wheel
+ModelNum 	    3
+Offset1  	    -25 3 -31.0
+Offset2  	    -3 0 0
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable   	FALSE
+SteerRatio  	0.1
+EngineRatio 	20000
+Radius      	11.9
+Mass        	0.15
+Gravity     	2200
+MaxPos      	8
+SkidWidth   	10
+ToeIn       	0
+AxleFriction    	0.05
+Grip            	0.020
+StaticFriction  	1.6
+KineticFriction 	2.2
+}          	; End Wheel
+
+WHEEL 3 { 	; Start Wheel
+ModelNum 	    4
+Offset1  	    25 3 -31.0
+Offset2  	    3 0 0
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable   	FALSE
+SteerRatio  	0.1
+EngineRatio 	20000
+Radius      	11.9
+Mass        	0.15
+Gravity     	2200
+MaxPos      	8
+SkidWidth   	10
+ToeIn       	0
+AxleFriction    	0.05
+Grip            	0.020
+StaticFriction  	1.6
+KineticFriction 	2.2
+}          	; End Wheel
+
+
+;====================
+; Car Spring details
+;====================
+
+SPRING 0 { 	; Start Spring
+ModelNum    	5
+Offset  	    -9.2 -15.0 42.7
+Length      	15.5
+Stiffness   	400
+Damping     	9
+Restitution 	-0.95
+}          	; End Spring
+
+SPRING 1 { 	; Start Spring
+ModelNum    	5
+Offset  	    9.2 -15.0 42.7
+Length      	15.5
+Stiffness   	400
+Damping     	9
+Restitution 	-0.95
+}          	; End Spring
+
+SPRING 2 { 	; Start Spring
+ModelNum    	5
+Offset  	    -11 -18.9 -32.7
+Length      	15.5
+Stiffness   	400
+Damping     	9
+Restitution 	-0.95
+}          	; End Spring
+
+SPRING 3 { 	; Start Spring
+ModelNum    	5
+Offset  	    11 -18.9 -32.7
+Length      	15.5
+Stiffness   	400
+Damping     	9
+Restitution 	-0.95
+}          	; End Spring
+
+
+;====================
+; Car Pin details
+;====================
+
+PIN 0 { 	    ; Start Pin
+ModelNum    	-1
+Offset  	    0 0 0
+Length      	0
+}          	; End Pin
+
+PIN 1 { 	    ; Start Pin
+ModelNum    	-1
+Offset  	    0 0 0
+Length      	0
+}          	; End Pin
+
+PIN 2 { 	    ; Start Pin
+ModelNum    	-1
+Offset  	    0 0 0
+Length      	0
+}          	; End Pin
+
+PIN 3 { 	    ; Start Pin
+ModelNum    	-1
+Offset  	    0 0 0
+Length      	0
+}          	; End Pin
+
+
+;====================
+; Car axle details
+;====================
+
+AXLE 0 { 	; Start Axle
+ModelNum    	9
+Offset  	-7 0 45
+Length      	11
+}          	; End Axle
+
+AXLE 1 { 	; Start Axle
+ModelNum    	9
+Offset  	7 0 45
+Length      	11
+}          	; End Axle
+
+AXLE 2 { 	; Start Axle
+ModelNum    	9
+Offset  	-8 0 -31.0
+Length      	11
+}          	; End Axle
+
+AXLE 3 { 	; Start Axle
+ModelNum    	9
+Offset  	8 0 -31.0
+Length      	11
+}          	; End Axle
+
+
+;====================
+; Car Spinner details
+;====================
+
+SPINNER { 	    ; Start spinner
+ModelNum    	-1
+Offset      	0 0 0
+Axis        	0 1 0
+AngVel      	0
+}          	; End Spinner
+
+
+;====================
+; Car Aerial details
+;====================
+
+AERIAL { 	; Start Aerial
+SecModelNum 	17
+TopModelNum 	18
+Offset      	-15 -8 -15
+Direction   	0 -1 0
+Length      	20
+Stiffness   	2000
+Damping     	5.5
+}          	; End Aerial
+
+
+;====================
+; Car AI details
+;====================
+
+AI { 	; Start AI
+UnderThresh 	5
+UnderRange  	1584.415039
+UnderFront	 	401.940002
+UnderRear   	321.519989
+UnderMax    	0.283685
+OverThresh  	1954.575073
+OverRange   	1541.581543
+OverMax     	1
+OverAccThresh  	131.029999
+OverAccRange   	1928.01001
+PickupBias     	16383
+BlockBias      	16383
+OvertakeBias   	16383
+Suspension     	26213
+Aggression     	0
+}          	; End AI
+
+;====================
+; Camera details
+;====================
+
+;)CAMATTACHED {   ; Start Camera
+;)HoodOffset      -0.00 -39.00 -18.00 ; Offset from model center
+;)HoodLook        0.02                ; Look angle (-0.25 to 0.25, 0.0 - straight ahead)
+;)RearOffset      -0.12 -71.81 47.24
+;)RearLook        0.03
+;)}               ; End Camera
+
+}
+; HB15MCH

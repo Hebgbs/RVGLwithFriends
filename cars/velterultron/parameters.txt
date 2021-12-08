@@ -1,0 +1,344 @@
+{
+
+;============================================================
+;============================================================
+; Velter Ultron
+;============================================================
+;============================================================
+Name      	"Velter Ultron"
+
+
+;====================
+; Models
+;====================
+
+MODEL 	0 	"cars\velterultron\body.prm"
+MODEL 	1 	"cars\velterultron\wheelleft.prm"
+MODEL 	2 	"cars\velterultron\wheelright.prm"
+MODEL 	3 	"NONE"
+MODEL 	4 	"NONE"
+MODEL 	5 	"NONE"
+MODEL 	6 	"NONE"
+MODEL 	7 	"NONE"
+MODEL 	8 	"NONE"
+MODEL 	9 	"NONE"
+MODEL 	10 	"NONE"
+MODEL 	11 	"NONE"
+MODEL 	12 	"NONE"
+MODEL 	13 	"NONE"
+MODEL 	14 	"NONE"
+MODEL 	15 	"NONE"
+MODEL 	16 	"NONE"
+MODEL 	17 	"cars\misc\Aerial.m"
+MODEL 	18 	"cars\misc\AerialT.m"
+TPAGE 	"cars\velterultron\car.bmp"
+COLL 	"cars\velterultron\hull.hul"
+;)TCARBOX "cars\velterultron\carbox.bmp"
+;)TSHADOW "cars\velterultron\shadow.bmp"
+
+;)SHADOWTABLE -39.6 39.6 74.7 -75.6 -2.565
+;)STATISTICS 	TRUE
+EnvRGB 	200 200 200
+
+;====================
+; Stuff mainly for frontend display and car selectability
+;====================
+
+BestTime   	TRUE
+Selectable 	TRUE
+;)CPUSelectable	TRUE
+Class      	1
+Obtain     	0
+Rating     	4
+TopEnd     	3963.243164
+Acc        	6.185489
+Weight     	1.900000
+Handling   	50.000000
+Trans      	2
+MaxRevs    	0.500000
+
+;====================
+; Handling related stuff
+;====================
+
+SteerRate  	3.000000 			; Rate at which steer angle approaches value from input
+SteerMod   	0.400000 			;
+EngineRate 	4.500000 			; Rate at which Engine voltage approaches set value
+TopSpeed   	47.000000 			; Car's theoretical top speed (not including friction...)
+DownForceMod	2.000000 			; Down force modifier when car on floor
+CoM        	0.000000 -26.550000 -2.700000	; Centre of mass relative to model centre
+Weapon     	0.000000 -32.000000 64.000000
+
+;====================
+; Car Body details
+;====================
+
+BODY {		; Start Body
+ModelNum   	0 			; Model Number in above list
+Offset     	0, 0, 0 		; Calculated in game
+Mass       	1.900000
+Inertia    	1200.000000 0.000000 0.000000
+           	0.000000 2050.000000 0.000000
+           	0.000000 0.000000 800.000000
+Gravity		2200 			; No longer used
+Hardness   	0.000000
+Resistance 	0.001000 			; Linear air esistance
+AngRes     	0.001000 			; Angular air resistance
+ResMod     	20.000000 			; Ang air resistnce scale when in air
+Grip       	0.010000 			; Converts downforce to friction value
+StaticFriction 0.800000
+KineticFriction 0.400000
+}     		; End Body
+
+;====================
+; Car Wheel details
+;====================
+
+WHEEL 0 { 	; Start Wheel
+ModelNum 	1
+Offset1  	-23.8500000 24.7500000 31.950000
+Offset2  	0.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	FALSE
+IsTurnable  	TRUE
+SteerRatio  	-0.400000
+EngineRatio 	0.000000
+Radius      	10.800000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	4.000000
+SkidWidth   	9.500000
+ToeIn       	0.000000
+AxleFriction    	0.020000
+Grip            	0.015000
+StaticFriction  	1.890000
+KineticFriction 	1.940000
+}          	; End Wheel
+
+WHEEL 1 { 	; Start Wheel
+ModelNum 	2
+Offset1  	23.8500000 24.7500000 31.950000
+Offset2  	0.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	FALSE
+IsTurnable  	TRUE
+SteerRatio  	-0.400000
+EngineRatio 	0.000000
+Radius      	10.800000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	4.000000
+SkidWidth   	9.500000
+ToeIn       	0.000000
+AxleFriction    	0.020000
+Grip            	0.015000
+StaticFriction  	1.890000
+KineticFriction 	1.940000
+}          	; End Wheel
+
+WHEEL 2 { 	; Start Wheel
+ModelNum 	1
+Offset1  	-23.8500000 24.7500000 -49.500000
+Offset2  	0.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	FALSE
+SteerRatio  	1.000000
+EngineRatio 	39000.000000
+Radius      	10.800000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	4.000000
+SkidWidth   	10.500000
+ToeIn       	0.000000
+AxleFriction    	0.020000
+Grip            	0.028000
+StaticFriction  	2.210000
+KineticFriction 	2.160000
+}          	; End Wheel
+
+WHEEL 3 { 	; Start Wheel
+ModelNum 	2
+Offset1  	23.8500000 24.7500000 -49.500000
+Offset2  	0.000000 0.000000 0.000000
+IsPresent   	TRUE
+IsPowered   	TRUE
+IsTurnable  	FALSE
+SteerRatio  	1.000000
+EngineRatio 	39000.000000
+Radius      	10.800000
+Mass        	0.150000
+Gravity     	2200.000000
+MaxPos      	4.000000
+SkidWidth   	10.500000
+ToeIn       	0.000000
+AxleFriction    	0.020000
+Grip            	0.028000
+StaticFriction  	2.210000
+KineticFriction 	2.160000
+}          	; End Wheel
+
+
+;====================
+; Car Spring details
+;====================
+
+SPRING 0 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	1000.000000
+Damping     	9.000000
+Restitution 	-0.750000
+}           	; End Spring
+
+SPRING 1 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	1000.000000
+Damping     	9.000000
+Restitution 	-0.750000
+}           	; End Spring
+
+SPRING 2 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	1000.000000
+Damping     	9.000000
+Restitution 	-0.750000
+}           	; End Spring
+
+SPRING 3 { 	; Start Spring
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+Stiffness   	1000.000000
+Damping     	9.000000
+Restitution 	-0.750000
+}           	; End Spring
+
+
+;====================
+; Car Pin details
+;====================
+
+PIN 0 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 1 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 2 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+PIN 3 {    	; Start Pin
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End Pin
+
+
+;====================
+; Car axle details
+;====================
+
+AXLE 0 {   	; Start Axle
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End axle
+
+AXLE 1 {   	; Start Axle
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End axle
+
+AXLE 2 {   	; Start Axle
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End axle
+
+AXLE 3 {   	; Start Axle
+ModelNum    	-1
+Offset      	0.000000 0.000000 0.000000
+Length      	0.000000
+}           	; End axle
+
+
+;====================
+; Car spinner details
+;====================
+
+SPINNER {   	; Start spinner
+ModelNum    	-1
+Offset      	0.000000 5.445000 -0.741600
+Axis        	0.000000 0.000000 0.000000
+AngVel      	0.000000
+}           	; End Spinner
+
+
+;====================
+; Car Aerial details
+;====================
+
+AERIAL {    	; Start Aerial
+SecModelNum 	17
+TopModelNum 	18
+Offset      	23.700000 9.300000 38.000000
+Direction   	0.000000 -1.000000 0.000000
+Length      	19.000000
+Stiffness   	2000.000000
+Damping     	5.500000
+}           	; End Aerial
+
+
+;====================
+; Car AI details
+;====================
+
+AI {        	 ;Start AI
+UnderThresh     937.500000 ; switched off, it’s an easy runner
+
+UnderRange        1 ; for simplicity
+
+UnderFront        0 ; must be 0, otherwise vehicles don’t move
+
+UnderRear         0 ; must be 0, otherwise vehicles don’t move 
+
+UnderMax          -1.0 ; easy runner, no need for tuning 
+
+OverThresh      937.500000 ; switched off, it’s an easy runner
+
+OverRange         1 ; for simplicity 
+
+OverMax           2.0 ; easy runner, no need for tuning
+
+OverAccThresh     5000 ; switched off for simpler tuning
+
+OverAccRange      0 ; not used now, because OverAccThresh is switched off
+
+}           	; End AI
+
+;====================
+; Camera
+;====================
+
+CAMATTACHED {		; Start Camera
+HoodOffset 	-0.000000 -26.000000 9.000000
+HoodLook   	0.040000
+RearOffset 	-0.000000 -23.000000 -5.00000
+RearLook   	0.000000
+}            		; End Camera

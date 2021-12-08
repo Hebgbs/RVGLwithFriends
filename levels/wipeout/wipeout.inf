@@ -1,0 +1,15 @@
+;--------------------------
+;Revolt .INF file structure 
+;--------------------------
+
+NAME 'WipEout'            
+STARTPOS 7951. -451. 1777.    
+STARTROT 0.20		               	
+FARCLIP 20000		            
+FOGSTART 15000		            
+FOGCOLOR 0 0 0	        	                   
+WORLDRGBPER 80                     
+MODELRGBPER 70		               
+	               
+
+		

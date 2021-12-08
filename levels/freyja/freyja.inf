@@ -1,0 +1,18 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME 'Freyja'
+STARTPOS 7579 -161 12979
+STARTROT 0.75		
+FARCLIP 70000		
+FOGSTART 60000 
+VERTFOGSTART -3750		
+VERTFOGEND -7000
+FOGCOLOR 10 0 85
+WORLDRGBPER 80             
+MODELRGBPER	70
+MIRRORS 0 0.75 0 768
+SHADOWBOX -75
+ENVSTILL 'levels\freyja\freyjak.bmp'
+

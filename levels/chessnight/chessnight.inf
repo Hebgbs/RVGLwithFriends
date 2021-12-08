@@ -1,0 +1,17 @@
+;--------------------------
+;Revolt .INF file structure 
+;--------------------------
+
+NAME 'Chess Night'           
+STARTPOS 19478. -65. -10085.     
+STARTROT 0.00		                	
+FARCLIP 35000		            
+FOGSTART 35000		            
+FOGCOLOR 0 0 0	                       
+WORLDRGBPER 85                      
+MODELRGBPER 80		                              
+MIRRORS 0 0.60 0 512
+ENVSTILL 'levels\chessnight\chessnightk.bmp' 	      
+                    
+
+		

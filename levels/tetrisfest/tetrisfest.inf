@@ -1,0 +1,23 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME			'Tetris Festival'
+DIFFICULTY		2
+STARTPOS		0 0 990
+STARTPOSREV		388 0 1610
+STARTROT		0
+STARTROTREV		0.50
+FARCLIP			50000
+FOGSTART		50000
+FOGCOLOR		0 0 0
+VERTFOGSTART	        0
+VERTFOGEND		0
+WORLDRGBPER             70
+MODELRGBPER		70
+INSTANCERGBPER	        70
+TEXTUREPROPS	        1 1 1 1	
+MUSIC		        'levels\tetrisfest\custom\tetrisfest.ogg'
+REDBOOK			4 9
+CHALLENGE               0 30 800
+CHALLENGEREV            0 31 0

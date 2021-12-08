@@ -1,0 +1,18 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'R2049 Tundra Battle'
+GAMETYPE        1
+STARTPOS        3150 -674 -6550
+STARTROT        0
+STARTGRID       3
+FARCLIP         400000
+FOGSTART        390000
+FOGCOLOR        96 104 136
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
+MP3             'levels\r2049dm3_bat\starsky.mp3'

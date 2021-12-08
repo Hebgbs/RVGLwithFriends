@@ -1,0 +1,21 @@
+;--------------------------
+;Revolt .INF file structure
+;  Hallows Eve by ZAGames
+;--------------------------
+
+NAME		'Hallows Eve'
+STARTPOS        -129 -32 336
+STARTPOSREV	82 -100 128     
+STARTROT	0.0
+STARTROTREV	0.5
+FARCLIP		1900000
+FOGSTART	1100000
+FOGCOLOR	0 0 0
+VERTFOGSTART	0
+VERTFOGEND	0
+WORLDRGBPER     100
+MODELRGBPER	100
+INSTANCERGBPER	100
+MIRRORS		0 0.75 0 256
+MP3		'nhood1.mp3'
+REDBOOK         13 13

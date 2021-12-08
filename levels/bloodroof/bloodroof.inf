@@ -1,0 +1,13 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME 'Blood on the Rooftops'
+STARTPOS -86 -29 1787
+STARTROT 0.50		
+FARCLIP 65000
+FOGSTART 60000
+WORLDRGBPER 100
+MODELRGBPER	85
+MUSIC		'music\io\atomic'
+REDBOOK		1 3

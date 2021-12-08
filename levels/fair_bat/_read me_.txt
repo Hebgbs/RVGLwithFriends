@@ -1,0 +1,83 @@
+Thank you for taking the time to open this (whether intentionaly or not). Please keep reading.
+____________________________________________________
+**IMPORTANT**
+THIS LEVEL REQUIRES RVGL 20.0430a (or higher) TO RUN. 
+
+____________________________________________________
+
+FAIRGROUND BATTLE
+
+Length: n/a
+Length(R):  n/a
+Difficulty: n/a
+
+Created: 3/30/2020
+
+
+____________________________________________________
+
+Description:
+
+Late night fight at the front gate. 
+The park, now closed, is quiet and still as you dart between buildings and deactivated rides. 
+
+
+____________________________________________________
+
+Developers:
+
+GJ
+-Models
+-Textures
+-Objects
+-Lighting and Shading
+
+
+I Spy
+-Visual Design Advisor
+
+
+Made with Blender Plugin
+____________________________________________________
+
+Stats:
+
+Faces: 6,582
+NCP Faces: 616
+Development Time: 5 Months 
+
+
+____________________________________________________
+
+Trivia:
+
+-The front gate was from fairground 1, but it was removed due to thematic and pacing issues. The rocket ride was from an earlier build of fairground 2, but now rebuilt better.
+-Textures were built using pictures from a real fairground. The Terroride sign was from a photo GJ took in 2006.
+-In areas of the reference fairground, there were so many cigarettes littered on the ground that they were jokingly considered to be included in the main ground textures. They made it in as instances instead.
+-The after hours setting was decided upon partially to differentiate it from the other tracks; it creates an interesting contrast between the motion and noises seen in fairground 2 especially. 
+
+
+____________________________________________________
+IMPORTANT
+-All items in this directory are built and designed by GJ and I SPY.
+-Please consult GJ before altering or reusing assets outside of personal use. I'm lenient about usage so don't be afraid to ask.
+-Feel free to distribute as is without taking credit from the developers.
+-Do not alter this Readme file, and include it in this directory if distributing to friend, family, or whomever. 
+-This track directory is free to download and use, it is not for sale and not to be sold. Period.
+
+Re-Volt Hideout
+https://forum.re-volt.io/memberlist.php?mode=viewprofile&u=2090
+
+Email (I don't check this too often)
+grnthn2@gmail.com
+
+Discord
+#8017
+
+I SPY is reclusive, but if all else fails you can try to contact him instead. He also isn't a spy that's just his name.
+
+
+
+
+We hope you thoroughly enjoy this track,
+Thank you  :)

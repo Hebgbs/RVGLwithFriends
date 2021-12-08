@@ -1,0 +1,339 @@
+{
+  MODEL   0   "cow1_body"
+  MODEL   1   "cow1_head"
+  MODEL   2   "cow1_tail"
+  MODEL   3   "cow2_body"
+  MODEL   4   "cow2_head"
+  MODEL   5   "cow2_tail"
+  
+  ANIMATION {
+    Slot                      0
+    Name                      "Cow 1a"
+    Mode                      2
+  
+    BONE {
+      BoneID                  0
+      ModelID                 0
+    }
+    BONE {
+      BoneID                  1
+      ModelID                 1
+      Parent                  0
+      OffsetTranslation       0 -30 -150
+    }
+    BONE {
+      BoneID                  2
+      ModelID                 2
+      Parent                  0
+      OffsetTranslation       0 -145 150
+    }
+  
+    KEYFRAME {
+      FrameNr                 0
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          -0.1 0.1 0.9
+        RotationAmount        5
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        7
+      }
+      }
+    KEYFRAME {
+      FrameNr                 1
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          -0.1 0.1 0.9
+        RotationAmount        5
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 -15
+        RotationAmount        7
+      }
+      }
+    KEYFRAME {
+      FrameNr                 2
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          -0.1 0.1 0.9
+        RotationAmount        5
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        7
+      }
+      }
+  
+    KEYFRAME {
+      FrameNr                 3
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          0.9 -0.1 0.2
+        RotationAmount        35
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 -15
+        RotationAmount        20
+      }
+      }
+    KEYFRAME {
+      FrameNr                 4
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          0 0 10
+        RotationAmount        -5
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        20 
+      }
+      }
+    KEYFRAME {
+      FrameNr                 5
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          -0.2 0 0.1
+        RotationAmount        30
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 -15
+        RotationAmount        10
+      }
+      }
+    KEYFRAME {
+      FrameNr                 6
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          1 1 -0.2
+        RotationAmount        7
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        20
+      }
+    }
+  }
+  
+  ANIMATION {
+    Slot                      1
+    Name                      "Cow 1b"
+    Mode                      2
+  
+    BONE {
+      BoneID                  0
+      ModelID                 0
+    }
+    BONE {
+      BoneID                  1
+      ModelID                 1
+      Parent                  0
+      OffsetTranslation       0 -30 -150
+    }
+    BONE {
+      BoneID                  2
+      ModelID                 2
+      Parent                  0
+      OffsetTranslation       0 -145 150
+    }
+  
+    KEYFRAME {
+      FrameNr                 0
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          0 20 0
+        RotationAmount        30
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        10
+      }
+      }
+  
+    KEYFRAME {
+      FrameNr                 1
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          0 -20 0
+        RotationAmount        30
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 -15
+        RotationAmount        20 
+      }
+    }
+  }
+    
+  ANIMATION {
+    Slot                      2
+    Name                      "Cow 2"
+    Mode                      2
+  
+    BONE {
+      BoneID                  0
+      ModelID                 3
+    }
+    BONE {
+      BoneID                  1
+      ModelID                 4
+      Parent                  0
+      OffsetTranslation       0 -30 -150
+    }
+    BONE {
+      BoneID                  2
+      ModelID                 5
+      Parent                  0
+      OffsetTranslation       0 -145 150
+    }
+  
+    KEYFRAME {
+      FrameNr                 0
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          -0.1 0.1 0.9
+        RotationAmount        5
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        7
+      }
+      }
+    KEYFRAME {
+      FrameNr                 1
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          -0.1 0.1 0.9
+        RotationAmount        5
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 -15
+        RotationAmount        7
+      }
+      }
+    KEYFRAME {
+      FrameNr                 2
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          -0.1 0.1 0.9
+        RotationAmount        5
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        7
+      }
+      }
+  
+    KEYFRAME {
+      FrameNr                 3
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          0.9 -0.1 0.2
+        RotationAmount        35
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 -15
+        RotationAmount        20
+      }
+      }
+    KEYFRAME {
+      FrameNr                 4
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          0 0 10
+        RotationAmount        -5
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        20 
+      }
+      }
+    KEYFRAME {
+      FrameNr                 5
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          -0.2 0 0.1
+        RotationAmount        30
+      }
+      BONE {
+        BoneID                2
+        RotationAxis          0 0 -15
+        RotationAmount        10
+      }
+      }
+    KEYFRAME {
+      FrameNr                 6
+      Time                    1
+      Type                    3
+  
+      BONE {
+        BoneID                1
+        RotationAxis          1 1 -0.2
+        RotationAmount        7
+      }
+       BONE {
+        BoneID                2
+        RotationAxis          0 0 15
+        RotationAmount        20
+      }
+    }
+  }
+}

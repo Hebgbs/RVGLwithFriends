@@ -1,0 +1,33 @@
+Now that I have your attention, let's read something relevant...
+
+Track Name---  Temple of the Burning Darkness
+
+Author---         Dave-o-rama
+
+Type---    Extreme
+
+Length---    445m both ways
+
+Directions---    Standard stuff... Just unzip in the main Re-volt folder, then everything should be set.
+
+Description---  "LEAVE NOT ONLY ME, BUT THE THOUGHTS I THINK," Johnny drunkenly slurred, after he and his friend Thomas managed to stumble away from an At the Gates concert. They were both too drunk to remember their own names when they managed to walk into the darkest corner of the temple. They found themselves standing in front of a flashing monument, when Thomas said, "Dude... dude... kiss it. I dare you". Johnny accepted the challenge, puckered up... and then, in a flash of blinding light, they both disappeared. Not a single trace of them was left. How did your R/C cars get all the way to the temple, you ask? Because I put them there. Any questions?
+
+Re-Volt 1.1 is obsolete--- You NEED WolfR4 or the 1.2 update for Re-Volt if you have any hopes of running this track properly. Go to http://jigebren.free.fr/ for WolfR4 or rv12.zackattackgames.net for Re-Volt 1.2. It is highly recommended that you download and install the 12.0802 alpha release for full compatibility with this track.
+
+Thank You To:
+You for downloading
+R6TurboExtreme and KDL for making the original mesh for this track (originally for a mapping test)
+R6TurboExtreme for putting up with my laziness
+KDL for making Fancington's Country Club better than I could have ever hoped to make it
+Acclaim, for Re-Volt
+Jigebren, for WolfR4
+huki and jigebren for Re-Volt 1.2
+JimK, for the offroad kit
+Epic Games, for loads of textures from Unreal Tournament
+At the Gates, for inspiring the Readme story (Now, how about a US Tour, eh?)
+ali & co. for rvglue
+The guys who made Rv-remap, rv-sizer, etc.
+
+My website--- daveorama.webs.com
+
+Copyrights\Permissions--- If you wanna use something, just go ahead and use it. just mention me in the readme. Please? ;)

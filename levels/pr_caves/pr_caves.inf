@@ -1,0 +1,23 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME                   'Penny Racers - Caves'                        ;The name of the level as seen in-game
+STARTPOS               6742 -23 4943 					;Start position of the car (x, y, z)
+STARTPOSREV            6742 -23 5943                               ;Start position of the car in reverse mode
+STARTROT               0.0                                  ;Start rotation of the car (0 - 1)
+STARTROTREV            0.5                                ;Start rotation of the car in reverse mode (0 - 1)
+STARTGRID	3
+STARTGRIDREV	3
+FARCLIP                30000                              ;Far clipping distance (draw distance)
+FOGSTART               200                           ;Fog start (slightly less than FARCLIP)
+FOGCOLOR               133 183 185 ;Fog and background color (RGB)
+VERTFOGSTART           1500                                  ;Vertical fog start (as in rooftops)
+VERTFOGEND             6000                                  ;Vertical fog end (as in rooftops)
+WORLDRGBPER            100                               ;RGB percent of original world gouraud (0 is dark)
+MODELRGBPER            100             ;RGB percent of original model (cars, etc.) gouraud
+INSTANCERGBPER         100                              ;RGB percent of original instance (decorations, etc.) gouraud
+MIRRORS                0 0.75 0 256                       ;Type - mix - intensity start - distance    
+SHADOWBOX              -60                                ;Changes the contrastbrightness or the shadows on the track, default -96.
+ROCK                   0 0 0 0                            ;Rocking effect like on Toytanic.
+MUSIC                  'levels\pr_caves\pr_caves.mp3'

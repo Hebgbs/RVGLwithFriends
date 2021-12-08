@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>URBANX FOR RVGL</title>
+  <meta name="description" content="RVGL UrbanX">
+  <meta name="author" content="javildesign">
+  <style>
+html {
+	margin: 0;
+  
+}
+body {
+  margin: 0;
+  min-height: 100%;
+background: rgb(70,27,27);
+background: linear-gradient(0deg, rgba(70,27,27,1) 0%, rgba(70,69,86,1) 34%, rgba(98,98,98,1) 58%, rgba(120,120,120,1) 100%);
+
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+#topLogo {
+	margin: 0 auto;
+     width: 384px;
+     position:relative; 
+}
+#container {
+	margin: 0 auto;
+  width: 1000px;
+  
+}
+.textAreaA {
+  width: 320px;
+  float: left;
+  background-color: rgba(255, 255, 255, .08);
+}
+.textAreaB {
+  width: 490px;
+  float: left;
+  background-color: rgba(255, 255, 255, .08);
+}
+.textAreaC {
+  width: 1000px;
+  float: left;
+  background-color: rgba(255, 255, 255, .08);
+  padding-right:10px;
+  padding-bottom: 7px;
+}
+
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  padding-left :8px;
+  padding-right :8px;
+  color:#111;
+}
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  padding-left:3px;
+  color:#111;
+  text-transform: uppercase;
+  margin: 2px;
+}
+
+
+.title {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  background: rgb(51,51,51);
+background: linear-gradient(90deg, rgba(51,51,51,1) 50%, rgba(37,37,35,0) 100%);  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.title2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #000;
+}
+.title3 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  background: rgb(51,51,51);
+background: linear-gradient(90deg, rgba(51,51,51,1) 50%, rgba(37,37,35,0) 100%);  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 6px;
+}
+#contentA {
+  margin-top: 25px;
+  display:-webkit-flex;
+display:flex;
+-webkit-justify-content:space-between;
+justify-content:space-between;
+margin-bottom: 20px;
+}
+#contentB {
+display:-webkit-flex;
+display:flex;
+-webkit-justify-content:space-between;
+justify-content:space-between;
+margin-bottom: 20px;
+}
+#contentC {
+display:-webkit-flex;
+display:flex;
+-webkit-justify-content:space-between;
+justify-content:space-between;
+margin-bottom: 20px;
+}
+.credits {
+  margin: 2px;
+  padding-left:12px;
+  font-style: italic;
+}
+a {
+  color:#80c9db;
+}
+.music {
+  margin-top: 12px;
+  padding-left: 5px;
+}
+.fixed {
+  color: #7cbe4f;
+  background-color: rgba(1, 1, 1, .4);
+  padding: 1px 5px 1px 5px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.added {
+  color: #2998f6;
+  background-color: rgba(1, 1, 1, .4);
+  padding: 1px 5px 1px 5px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 11px;
+}
+#rvgl {
+  bottom:0;
+  right:0;
+  position: absolute;
+}
+.uploaded {
+  color: #eb8312;
+  background-color: rgba(1, 1, 1, .4);
+  padding: 1px 5px 1px 5px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 11px;
+}
+</style>
+</head>
+<body>
+  <div id="container">
+	<div id="topLogo">
+	<img src="custom/loadinga.bmp" width="128" height="128"><img src="custom/loadingb.bmp" width="128" height="128"><img src="custom/loadingc.bmp" width="128" height="128">
+  <div id="rvgl"><img src="html/rvgl.png"></div>
+</div>
+<div id="contentC">
+<div class="textAreaC">
+  <div class="title">Changelog</div>
+  <h2 class="title2">Jan 8, 2021</h2>
+  <p class="credits"><span class="added">Added</span> added custom_animation.txt that will enable the fans. (file was probably deleted during development)</p>
+  <h2 class="title2">Dec 6, 2020</h2>
+  <p class="credits"><span class="fixed">Fixed</span> worldcut applied for better visuals and performance (.w)</p>
+  <h2 class="title2">Dec 5, 2020</h2>
+  <p class="credits"><span class="fixed">Fixed</span> small AI nodes route Normal and Reverse (.fan)</p>
+  <p class="credits"><span class="fixed">Fixed</span> ventilation duct geometry on Normal and Reverse (.w)</p>
+  
+
+</div>
+</div>
+<div id="contentA">
+<div class="textAreaA">
+  <div class="title">Software</div>
+	<p>Modelled in Blender 2.8/2.9.</p>
+  <p>Texture are all baked using Blender using a HDRI as a light source.</p>
+  <p>Substance Painter is used to finalize the textures.</p>
+  <p>Photoshop for some adjustments.</p>
+  <p>Blender 2.79 Plug-in for Revolt, created by Marv.</p>
+  <p>Blender 2.73 Plug-in for Revolt, created by Jigebren, for .fob (and custom animation), .taz, .vis placement.</p>
+<p>RVGL from <a href="https://re-volt.io/">re-volt.io/</a></p>
+</div>
+<div class="textAreaA">
+  <div class="title">Technical Details</div>
+  <p>Release Date: Dec 4, 2020</p>
+  <p>Track length: 682 meter</p>
+  <p>Total Triangles World (.w): 90.623</p>
+  <p>Total Triangles Collision (.ncp): 11.158</p>
+  <p>Reverse mode: Yes</p>
+  <p>Time-Trial: Yes</p>
+  <p>Lighting: Baked</p>
+</div>
+<div class="textAreaA">
+  <div class="title">Copyright and Download</div>
+  <p style="word-spacing: 5px; font-style: italic;">You can modify or add stuff to this track as much as you want but <b>do not re-upload a modified version to any resource without my permission.</b></p>
+  <p></p>
+  <p>The version on RevoltZone has compressed .jpg textures. Original .png version will be uploaded to <a href="http://revoltxtg.co.uk/">revoltXTG</a> soon.</p>
+  <p>Copyright © 2020 <a href="https://javildesign.com"><b>javildesign.com</b></a></p>
+</div>
+</div>
+<div id="contentC">
+<div class="textAreaC">
+  <div class="title">About UrbanX</div>
+  <p>The inspiration began with me following Gleb Alexandrov Blender tutorial named Game level texturing.<br>
+My idea was to create a track where you can race on a concrete floor between industrial barrels and pipes.</p>
+<p>The track soon got a lot bigger when I added hallways and loading docks with a complete outside area.<br>
+I later deleted all of this and made a smaller 'technical room', now the room with all the rusty pipes.</p>
+<p>I had plans to create more text on the panels, but decided to skip that also, so that's why urbanxa.bmp has lot of empty space.</p>
+<p>There are several ways to race this track, so a lot to discover! Beware of the oil!</p>
+
+
+</div>
+</div>
+<div id="contentB">
+<div class="textAreaB">
+  <div class="title">SoundFX</div>
+  <p>Most sounds effect are from freesound.org which I mixed.</p>
+  <p>
+  
+  <h2>UrbanX Ambience</h2>
+  <div class="music"><audio controls>
+  <source src="custom/stream.wav" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+<h2>UrbanX Soundtrack</h2>
+  <div class="music"><audio controls>
+  <source src="urbanx.ogg" type="audio/ogg">
+Your browser does not support the audio element.
+</audio>
+<p>Title: Bionix</p>
+<p>Author: QFactor (Lucid vs Block Device Remix) (Sun Department Vol. 2)</p>
+<p>Source: <a href="https://ektoplazm.com/free-music/sun-department-vol-2">Ektoplazm</a></p>
+<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons License</a></p>
+<p>Adaptions: Track shortened and looped in Audacity by myself.</p>
+</div>
+
+</div>
+<div class="textAreaB">
+  <div class="title3">Credits and Help</div>
+  <h2 class="title2">Improvement ideas and testing:</h2>
+  <p class="credits">Tryxn, MightyCucumber, ThePotatoHead</p>
+  <p class="credits"></p>
+ <h2 class="title2">Materials:</h2>
+ <p class="credits"><a href="https://share.substance3d.com/libraries/754">https://share.substance3d.com/libraries/754</a></p>
+<p class="credits"><a href="https://share.substance3d.com/libraries/3015">https://share.substance3d.com/libraries/3015</a></p>
+<h2 class="title2">Graffiti Brushes:</h2>
+<p class="credits"><a href="https://www.brusheezy.com/brushes/59000-20-graffiti-ps-brushes-abr-vol-9">https://www.brusheezy.com/brushes/59000...</a></p>
+<p class="credits"><a href="https://www.brusheezy.com/brushes/58976-20-graffiti-ps-brushes-abr-vol-7">https://www.brusheezy.com/brushes/58976</a></p>
+<p class="credits"><a href="https://www.brusheezy.com/brushes/59250-20-graffiti-ps-brushes-abr-vol-12">https://www.brusheezy.com/brushes/59250</a></p>
+<p class="credits"><a href="https://myphotoshopbrushes.com/brushes/id/3493/">https://myphotoshopbrushes.com/brushes/id/3493/</a></p>
+<p class="credits"><a href="https://myphotoshopbrushes.com/brushes/id/3807/">https://myphotoshopbrushes.com/brushes/id/3807/</a></p>
+<p class="credits"><a href="https://myphotoshopbrushes.com/brushes/id/3502/">https://myphotoshopbrushes.com/brushes/id/3502/</a></p>
+<p class="credits"><a href="https://myphotoshopbrushes.com/brushes/id/3700/">https://myphotoshopbrushes.com/brushes/id/3700/</a></p>
+<p class="credits"><a href="https://myphotoshopbrushes.com/brushes/id/445/">https://myphotoshopbrushes.com/brushes/id/445/</a></p>
+<p class="credits"><a href="https://myphotoshopbrushes.com/brushes/id/369/">https://myphotoshopbrushes.com/brushes/id/369/</a></p>
+<p class="credits"><a href="https://myphotoshopbrushes.com/brushes/id/378/">https://myphotoshopbrushes.com/brushes/id/378/</a></p>
+<p class="credits"><a href="https://myphotoshopbrushes.com/brushes/id/361/">https://myphotoshopbrushes.com/brushes/id/361/</a></p>
+<p class="credits"><a href="https://www.brushlovers.com/photoshop-brush/20-graffiti-ps-brushes-abr-vol4.html">https://www.brushlovers.com/photoshop-brush/...</a></p>
+<p class="credits"><a href="https://www.brusheezy.com/brushes/54169-18-graffiti-brushes-from-berlin">https://www.brusheezy.com/brushes/54169...</a></p>
+<p class="credits"><a href="http://www.photoshopbrushes.com/brushes/41.htm">http://www.photoshopbrushes.com/brushes/41.htm</a></p>
+<p class="credits"><a href="https://www.brusheezy.com">Free Brushes by Brusheezy!</a></p>
+<h2 class="title2">3D model</h2>
+<p class="credits"><a href="https://www.turbosquid.com/FullPreview/Index.cfm/ID/739553">https://www.turbosquid.com/FullPreview...</a></p>
+<h2 class="title2">Sounds</h2>
+<p class="credits"><a href="https://freesound.org/people/jimsim/sounds/147767/">https://freesound.org/people/jimsim...</a></p>
+<p class="credits"><a href="https://freesound.org/people/_mysterious_/sounds/126172/">https://freesound.org/people/_mysterious...</a></p>
+<h2 class="title2">Music:</h2>
+<p class="credits"><a href="https://ektoplazm.com/free-music/sun-department-vol-2">https://ektoplazm.com/free-music/...</a></p>
+<p class="credits"><b>License to share and adapt:</b><br><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">https://creativecommons.org/licenses...</a></p>
+<p></p>
+
+</div>
+</div>
+
+</div>
+</body>
+</html>

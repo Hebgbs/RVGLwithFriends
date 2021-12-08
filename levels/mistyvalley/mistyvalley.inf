@@ -1,0 +1,15 @@
+;----------------------------
+; Revolt .INF file structure  
+;----------------------------
+ 
+NAME                            'Misty Valley'
+STARTPOS                 -12904 -21009 -11120
+STARTROT                 0.8700
+FARCLIP                      27000
+FOGSTART                 2000
+FOGCOLOR                210 220 230 
+WORLDRGBPER       75	
+MODELRGBPER        75
+REDBOOK                   10 10
+
+  

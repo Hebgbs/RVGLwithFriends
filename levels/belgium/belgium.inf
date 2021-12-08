@@ -1,0 +1,16 @@
+;--------------------------
+;Revolt .INF file structure 
+;--------------------------
+
+NAME		            'Belgium'         
+STARTPOS	        10215 -1258 -7088   
+STARTROT	        0.25		               	
+FARCLIP		        40000		           
+FOGSTART	        35000		           
+FOGCOLOR	        0 0 0  	   
+WORLDRGBPER      90                      
+MODELRGBPER	    90              
+MIRRORS	            0 0.75 0 256	      
+REDBOOK		1 3
+
+		

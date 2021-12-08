@@ -1,0 +1,18 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		'Nhood Grimm'	
+STARTPOS	0. 0. 0.		
+STARTPOSREV	0. 0. 0.		
+STARTROT	0.0		
+STARTROTREV	0.0		
+FARCLIP		50000		
+FOGSTART	50000		
+FOGCOLOR	0 0 0 	 	
+VERTFOGSTART	0		
+VERTFOGEND	0		
+WORLDRGBPER     100             
+MODELRGBPER	100		
+INSTANCERGBPER	100		
+REDBOOK		8 9

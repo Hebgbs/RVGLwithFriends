@@ -1,0 +1,186 @@
+ _   _   _                              _          _
+| | / / (_)  _     _     ____   ____   \ \        / /  _   _   ____   ____   _      __
+| |/ /   _  | |   | |   |  __| | __ |   \ \      / /  | | | | |  __| |  __| | |    / _)
+|   (   | | | |   | |   | |_   |   _|    \ \_/\_/ /   | |_| | | (_   | (_   | |   (_(_
+| |\ \  | | | |_  | |_  |  _)  | \ \      \      /    |  _  | |  _)  |  _)  | |_   _) )
+|_| \_\ |_| |___| |___| |____| |_|\_\      \_/\_/     |_| |_| |____| |____| |___| (__/
+ _____________________________________________________________________________________
+(_____________________________________________________________________________________)
+
+* Palm Marsh *
+
+Updated to Palm Marsh v1.2 !
+Last Update : June 10 2013
+
+Little changelog (for those wondering):
+v1.2
+- merged updated version by SebR : no more big holes in the cave section !!
+Thank you SebR :)
+v1.1
+- updated grass and flower textures
+
+**********
+*FRANCAIS*
+**********
+
+Attention !
+
+Les voitures endiablées de Re-Volt sont arrivées au royaume de la 3D Basique et se jettent sur les circuits inutilisés de
+Crash Team Racing® !!!
+
+CTR Unused tracks, la liste de leur conquêtes pourrait peut être s'agrandir...
+
+En attendant, elles vont se défouler sur celui-ci, mais gare ! Si vous arrivez à reprendre le contrôle d'un des bolides,
+essayez d'evitez les palmiers, si vous leur rentrez dedans ils risquent de perdrent leur fruits...
+Et surtout essayez d'arriver le premier dans la caverne, les plantes endormies peuvent vous entendre,
+si vous les approchez elles allument leur petite sphère qui dépasse de la fleur...
+
+
+
+
+
+********
+
+Construction : Killer Wheels & darksabre
+Outils : 3ds max 6.0 fr, RVTMod 7, EdHex, MAKEITGOOD, paint shop pro 7.
+Temps de realisation : environ une semaine
+
+********
+
+Merci à tous ceux qui ont et qui continuent de jouer, de créer et d'aider dans Re-Volt.
+Sans eux les tonnes d'heures de plaisir ne seraient pas là, merci encore.
+Merci spécialement à : Smag, darksabre, créateurs de Re-Volt, créateurs de RVTmod7.
+Pour ceux que j'oublie (j'avoue ne pas être à l'aise avec les noms),
+rajoutez le et renvoyez le ReadMe !
+
+********
+
+Note: dans le coin supérieur gauche un petit cadre "Reverse & Replay" indique que le mode de jeu Renversé "Reverse"
+est disponible, et que le ralenti "Replay" possède des caméras placées sur le circuit,
+ou pour jouer en utilisant "TVTIME" et en appuyant sur F5 en jeu.
+Pour jouer le circuit en inversé tapez "TRACKER" à la place de votre nom, selectionnez un circuit original et appuyez sur
+la flèche du bas. Vous verrez apparaître le "(R)". Allez ensuite jusqu'au circuit que vous desirez jouer en "Reverse" mode.
+
+********
+
+Bon jeu ! :)
+
+
+*********
+*ESPAÑOL*
+*********
+
+¡Cuidado!
+Los carros infernales de Re-Volt llegaron al reino de la 3D básica y están a punto de agarrar las pistas no usadas de :
+¡¡¡Crash Team Racing®!!!
+
+CTR Unused Tracks, la lista de sus conquistas podría aumentar…
+
+Esperando eso, se van a desahogar sobre esta pista, ¡pero cuidado! Si usted llega a tener el control de uno de esos
+rápidos carros,
+Evite las palmeras, si choca con esas, podrían perder sus frutas…
+Y sobre todo, intente de ser el primero en llegar en la gruta, las plantas dormidas pueden escucharlo,
+Si se acerca demasiado a las plantas, encienden sus pequeñas esferas que sobresalen de la flor.
+
+
+
+
+
+
+
+********
+
+Realización: Killer Wheels y darksabre
+Herramientas: 3ds max 6.0 fr, RVTMod 7, EdHex, MAKEITGOOD, paint shop pro 7.
+Tiempo de trabajo: mas o menos 1ª semana
+
+********
+
+Muchas gracias a todos los que han jugado o que siguen jugando, Gracias por crear y ayudar a Re-volt.
+Sin ellos, no hubiéramos gozado de tantas horas de placer, gracias otra vez.
+Un agradecimiento especial para: Smag, darksabre, creadores de Re-volt y de RVTmod7.
+Para los que olvidé (los nombres son mi punto débil)
+Agréguelo y envíemelo de nuevo el archivo Readme.
+
+********
+
+Nota : en la esquina izquierda de arriba, un pequeño cuadro « Reverse & Replay »
+indica que los modos de juego al revés  y de repetición están disponibles.
+Puede también jugar con el modo TVTIME (entrándolo al lugar de su nombre) con la tecla F5.
+Para poder jugar la pista al revés, entra TRACKER (entrándolo al lugar de su nombre),
+selecciona una pista cualquiera pero original (pista “stock”) y presiona la flecha de abajo.
+Entonces, podrá ver la “R” al lado del nombre de la pista. Por fin, busca la pista que desea correr al revés.
+
+
+********
+*ENGISH*
+********
+
+Caution!
+
+Evil Re-volt cars arrived to basic 3D kingdom and are catching the unused tracks of Crash Team Racing®!!!
+
+Maybe the list of its conquests increase…
+
+For the moment, they gonna have fun on this track, but take care! If you reach to overcome one of those racing cars,
+try to avoid palm trees, if you hurt them, fruits can fall…
+Especially try to be the first one in the cave, sleepy plants can hear you, 
+if you pass to close from those plants, you will light on their small spheres which escape the flower.
+
+
+
+
+
+********
+
+Build : Killer Wheels & darksabre
+Tools used : 3ds max 6.0 fr, RVTMod 7, EdHex, MAKEITGOOD, paint shop pro 7.
+Time of work : about 1 week
+
+********
+
+Thanks to all who played and who are still playing, for its creation and help to Re-volt.
+Without them, hours of pleasure playing this game wouldn’t exist, thanks again.
+Special thanks to : Smag, darksabre, creators of Re-Volt and creators of RVTmod7.
+For those I forgot (I acknowledge “names” are not my specialty)
+Add your name and send back this Readme file !
+
+********
+
+PD : On top left corner, a little square saying “Reverse & Replay” shows that “reverse” and “replay” modes are available.
+You can also play using TVTIME mode (enter TVTIME instead of your name) by pressing F5 during the game.
+To race the track with reverse mode, enter TRACKER (enter TRACKER instead of your name), select an original track
+(stock track) and press down arrow. You’ll see the “R” next to track title. Then go to the desired track,
+you can now enjoy the reverse mode.
+
+********
+
+Enjoy :)
+
+
+
+
+
+
+
+
+*******
+
+Traduction ©jumex 2005
+:P
+
+***********************
+Copyright / Permissions
+***********************
+
+This level is copyright 2008, by KW.
+
+You can use this level as a base to build additional levels, if you do so be cool
+by sending me back a link / screenshot / etc... or by posting on the forum
+( http://www.nawakiwi.com then -> forum :)
+
+You are not allowed to commercially exploit this level, i.e. put it on a CD or any 
+other electronic medium that is sold for money without my explicit permission!
+
+You may distribute this level through any electronic network (internet (web/ftp), 
+FIDO, local BBS etc.), provided you include this file and leave the archive intact.

@@ -1,0 +1,18 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'R2049 Atomic Battle'
+GAMETYPE	1
+STARTPOS        -7917 211 3042
+STARTROT        0.25
+STARTGRID       0
+FARCLIP         400000
+FOGSTART        390000
+FOGCOLOR        0 0 0
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     50
+INSTANCERGBPER  50
+MUSIC		'levels\r2049dm4_bat\Robo.mp3'

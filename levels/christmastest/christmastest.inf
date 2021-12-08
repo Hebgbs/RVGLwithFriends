@@ -1,0 +1,24 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME		'Christmas Special Stage By Crescviper'
+STARTPOS	1900 -60 5702,5
+STARTPOSREV	1685 -60 5438
+STARTROT	0.25
+STARTROTREV	0.75
+STARTGRID	0
+STARTGRIDREV	0
+FARCLIP         240000
+FOGSTART        230000
+FOGCOLOR        0 0 0
+VERTFOGSTART	0
+VERTFOGEND	0
+WORLDRGBPER	30
+MODELRGBPER	70
+INSTANCERGBPER	30
+ENVSTILL                    'levels\ChristmasTest\Envstill.bmp' 
+ENVROLL                     'levels\ChristmasTest\Envroll.bmp' 
+MP3		'levels\ChristmasTest\song.mp3'
+MIRRORS		0 0.75 0 256		;Type - mix - intensity start - distance
+REDBOOK		1 3

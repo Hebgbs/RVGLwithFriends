@@ -1,0 +1,18 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME 'Snowy River'
+STARTPOS -9948 -23 5676
+STARTPOSREV -9448 -200 5476
+STARTROT 0.25
+STARTROTREV 0.75
+FARCLIP 45000
+FOGSTART 45000
+WORLDRGBPER 75
+MODELRGBPER 70
+SHADOWBOX	-70
+ENVSTILL 'levels\snowy_river\snowy_riverk.bmp'
+REDBOOK		1 9
+MUSIC		'music\io\cold'
+

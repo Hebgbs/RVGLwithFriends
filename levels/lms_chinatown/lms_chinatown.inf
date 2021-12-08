@@ -1,0 +1,31 @@
+;              _________ .__    .__               __                     ._.
+;              \_   ___ \|  |__ |__| ____ _____ _/  |_  ______  _  ______| |
+;              /    \  \/|  |  \|  |/    \\__  \\   __\/  _ \ \/ \/ /    \ |
+;              \     \___|   Y  \  |   |  \/ __ \|  | (  <_> )     /   |  \|
+;               \______  /___|  /__|___|  (____  /__|  \____/ \/\_/|___|  /_
+;                      \/     \/        \/     \/                       \/\/
+;
+;
+;-------------------------------------------------------------------------------
+;                    RIP Chinatown. One day...
+;-------------------------------------------------------------------------------
+;http://re-volt.io
+
+;AUTHOR             Marvin Thiel
+NAME                'LMS Chinatown'
+STARTPOS            0 0 0
+STARTPOSREV         0 0 0
+STARTROT            0
+STARTROTREV         0.5
+STARTGRID	          3
+FARCLIP             160000
+FOGSTART            10000
+FOGCOLOR            64 47 32
+VERTFOGSTART        0
+VERTFOGEND          0
+WORLDRGBPER         100
+MODELRGBPER         80
+INSTANCERGBPER      100
+MIRRORS             0 0.75 0 4096
+MUSIC               'levels/lms_chinatown/chinatown.ogg'
+REDBOOK             6 9

@@ -1,0 +1,16 @@
+;--------------------------
+;Revolt .INF file structure  
+;--------------------------
+
+NAME		'Cemetery Battle'
+STARTPOS        18970 -734 25978
+STARTROT        0.50000
+STARTGRID       3
+FARCLIP		15000		
+FOGSTART	12000
+FOGCOLOR	39 9 39		 
+WORLDRGBPER     70             
+MODELRGBPER	75	        
+INSTANCERGBPER	70		
+REDBOOK		4 9
+GAMETYPE	1

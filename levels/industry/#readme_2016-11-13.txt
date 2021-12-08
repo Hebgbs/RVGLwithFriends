@@ -1,0 +1,44 @@
+﻿                        ▄█    ▄   ██▄     ▄      ▄▄▄▄▄      ▄▄▄▄▀ █▄▄▄▄ ▀▄    ▄
+                        ██     █  █  █     █    █     ▀▄ ▀▀▀ █    █  ▄▀   █  █
+                        ██ ██   █ █   █ █   █ ▄  ▀▀▀▀▄       █    █▀▀▌     ▀█
+                        ▐█ █ █  █ █  █  █   █  ▀▄▄▄▄▀       █     █  █     █
+                         ▐ █  █ █ ███▀  █▄ ▄█              ▀        █    ▄▀
+                           █   ██        ▀▀▀                       ▀
+
+
+Author:         Marv
+AI:             R6
+Tools:          Blender (with Jig's plugin), Photoshop, Gimp, Audacity, prm2hul by Jigebren
+Additional:     Plants and crates by Nobiax, Some textures from CG Textures
+
+Changelog 2016-11-13:
+
+- Simpler plank collision in the train hall and some collision fixes
+- Disabled vis file since some objects kept disappearing
+- (Hopefully) ghettofixed the .w file to prevent glitches
+- Changed some textures
+- Converted bitmaps to PNG and enabled alpha transparency on objects that need it
+- Removed custom HUD and custom pickup.m
+- Removed waterboxes that have been used to animate plants
+- New loading screen
+
+
+You need RVGL from http://rv12.revoltzone.net/rvgl.php to play this track.
+
+Rename industry_rename_if_bad_performance_.vis to industry.vis if you're experiencing performance issues.
+Visiboxes are disabled since some of them cull things that shouldn't be culled.
+
+Thanks to:
+
+Daedalus
+Huki
+Jigebren
+kay
+Mike Kunak
+Nero
+Paul
+Pirog
+Skarma
+R6
+VaidX47
+Vic

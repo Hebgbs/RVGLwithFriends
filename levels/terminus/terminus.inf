@@ -1,0 +1,18 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME 'Terminus'
+STARTPOS 22178 4025 -3888
+STARTPOSREV	-7257 2187 -3611
+STARTROT	0.75
+STARTROTREV	0.25
+FARCLIP 50000		
+FOGSTART 40000		
+FOGCOLOR 0 0 0
+WORLDRGBPER 70
+MODELRGBPER	70
+SHADOWBOX	-85
+ENVSTILL 'levels\terminus\terminusk.bmp'
+MP3 'levels\terminus\ter_music.mp3'
+

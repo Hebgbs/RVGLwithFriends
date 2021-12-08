@@ -1,0 +1,19 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'ASBA Soccer Arena'
+STARTPOS        -700.000000 -500.000000 000.000000
+STARTROT        0.250000
+STARTGRID       3
+FARCLIP         185000
+FOGSTART        100
+FOGCOLOR        175 175 180
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
+GAMETYPE 	1
+DIFFICULTY 	1
+REDBOOK 	1 3

@@ -1,0 +1,19 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		'Temple of the Burning Darkness'	        
+STARTPOS	-6386 1078 3858	 
+STARTPOSREV	-7070 1185 3855	       
+STARTROT	0.75			
+STARTROTREV	0.25
+FARCLIP		45000
+FOGSTART	44400
+FOGCOLOR	0 0 0
+VERTFOGSTART	0
+VERTFOGEND	0
+WORLDRGBPER     70
+MODELRGBPER	70
+INSTANCERGBPER	70
+MIRRORS		0 0.75 0 256
+REDBOOK 	10 10

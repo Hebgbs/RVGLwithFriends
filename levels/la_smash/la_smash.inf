@@ -1,0 +1,13 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME		    'L.A. Smash'      ;The name of the level as seen in-game
+STARTPOS	    -16068 102 15737  ;Start position of the car
+STARTROT	    0.00	    ;Start rotation of the car (0 - 1)
+FARCLIP		    240000		;Far clipping distance (draw distance)
+FOGSTART	    230000		;Fog start (slightly less than FARCLIP)
+FOGCOLOR	    0 0 0    	;Fog and background color
+WORLDRGBPER     95          ;RGB percent of original world gouraud
+MODELRGBPER	    90		    ;RGB percent of original model gouraud
+REDBOOK		    1 3

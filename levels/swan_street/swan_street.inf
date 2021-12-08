@@ -1,0 +1,16 @@
+;--------------------------
+;Revolt .INF file structure
+;--------------------------
+
+NAME 'Swan Street'
+STARTPOS -5505 -69 -3996
+STARTPOSREV -5805 -69 -5196
+STARTROT 0.50		
+STARTROTREV 0.00	
+FARCLIP 85000		
+FOGSTART 75000 	
+WORLDRGBPER 55             
+MODELRGBPER	55
+MUSIC		'music\io\catnip'		
+REDBOOK		4 9
+	

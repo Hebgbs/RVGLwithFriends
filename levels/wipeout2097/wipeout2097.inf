@@ -1,0 +1,16 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME           'Wipeout 2097'
+STARTPOS       -4430 -341 -6060
+STARTROT       0.00
+FARCLIP        84000
+FOGSTART       80000
+FOGCOLOR       0 0 0
+WORLDRGBPER    75
+MODELRGBPER    75
+INSTANCERGBPER 75
+ENVSTILL       'levels\wipeout2097\wipeout2097k.bmp'
+MP3            'levels\wipeout2097\custom\X-Mal.mp3'
+

@@ -1,0 +1,212 @@
+{
+
+Name       	"Alien Buster"
+
+;		(files)
+
+MODEL 	0 	"cars/alienbuster/body.prm"
+MODEL 	1 	"cars/alienbuster/wheel.prm"
+MODEL 	2 	"cars/alienbuster/wheel.prm"
+MODEL 	3 	"cars/alienbuster/wheel.prm"
+MODEL 	4 	"cars/alienbuster/wheel.prm"
+MODEL 	5 	"NONE"
+MODEL 	6 	"NONE"
+MODEL 	7 	"NONE"
+MODEL 	8 	"NONE"
+MODEL 	9 	"cars/alienbuster/axle.prm"
+MODEL 	10 	"NONE"
+MODEL 	11 	"NONE"
+MODEL 	12 	"NONE"
+MODEL 	13 	"cars/alienbuster/radar.prm"
+MODEL 	14 	"NONE"
+MODEL 	15 	"NONE"
+MODEL 	16 	"NONE"
+MODEL 	17 	"cars/misc/Aerial.m"
+MODEL 	18 	"cars/misc/AerialT.m"
+TPAGE 		"cars/alienbuster/tpage.bmp"
+COLL 		"cars/alienbuster/hull.hul"
+;)TSHADOW 	"cars/alienbuster/shadow.bmp"
+;)SHADOWTABLE 	-46 36 77 -70 -20
+EnvRGB 		0 0 0
+
+;		(frontend)
+
+BestTime   	true
+Selectable 	true
+;)CPUSelectable	true
+;)Statistics 	true
+Class      	1
+Obtain     	0
+Rating     	3
+TopEnd     	3736.602539
+Acc        	8.695954
+Weight     	2
+Trans      	0
+MaxRevs    	0.5
+;)TCARBOX  	"cars/alienbuster/carbox.bmp"
+
+;		(handling)
+
+SteerRate  	3
+SteerMod   	0.4
+EngineRate 	4.5
+TopSpeed   	46
+DownForceMod	2
+CoM        	0 4 0
+Weapon     	0 -32 64
+
+;		(cameras)
+
+;)CAMATTACHED {
+;)HoodOffset   	0 -70 0
+;)HoodLook     	0.04
+;)RearOffset   	-10 -63 19
+;)RearLook     	0.02
+;)}
+
+;		(body)
+
+BODY {
+ModelNum   	0
+Offset     	0 -15 0
+Mass       	2
+Inertia    	1000 0 0
+           	0 2325 0
+           	0 0 1600
+Gravity    	2200
+Hardness   	0
+Resistance 	0.001
+AngRes     	0.015
+ResMod     	30
+Grip       	0.01
+StaticFriction 	0.8
+KineticFriction 0.4
+}
+
+;		(wheels)
+
+WHEEL 0 - 3 {
+Offset2		0 0 0
+IsPresent   	true
+IsPowered   	true
+SteerRatio  	-0.35
+EngineRatio 	18000
+Radius      	16
+Mass        	0.35
+Gravity     	2200
+MaxPos      	14
+SkidWidth   	15
+ToeIn       	0
+Grip            0.025
+StaticFriction  1.6
+KineticFriction 1.55
+}
+
+WHEEL 0 - 1 {
+IsTurnable  	true
+AxleFriction    0.02
+}
+
+WHEEL 2 - 3 {
+IsTurnable  	false
+AxleFriction    0.05
+}
+
+WHEEL 0 {
+ModelNum 	1
+Offset1  	-27 -6 43.5
+}
+
+WHEEL 1 {
+ModelNum 	2
+Offset1  	27 -6 43.5
+}
+
+WHEEL 2 {
+ModelNum 	3
+Offset1  	-27 -6 -48
+}
+
+WHEEL 3 {
+ModelNum 	4
+Offset1  	27 -6 -48
+}
+
+;		(springs)
+
+SPRING 0 - 3 {
+ModelNum    	-1
+Offset      	0 0 0
+Length      	0
+Stiffness   	300
+Damping     	9
+Restitution 	-0.85
+}
+
+;		(pins)
+
+PIN 0 - 3 {
+ModelNum    	-1
+Offset      	0 0 0
+Length      	0
+}
+
+;		(axles)
+
+AXLE 0 - 3 {
+ModelNum    	9
+Length      	28
+}
+
+AXLE 0 - 1 {
+Offset      	0 -20 43
+}
+
+AXLE 2 - 3 {
+Offset      	0 -20 -48
+}
+
+;		(spinner)
+
+SPINNER {
+ModelNum    	13
+Offset      	13.5 -59.8 -20
+Axis        	0 1 0
+AngVel      	0.5
+}
+
+;		(antenna)
+
+AERIAL {
+SecModelNum 	17
+TopModelNum 	18
+Offset      	-13 -43 36
+Direction   	0 -1 0
+Length      	30
+Stiffness   	2000
+Damping     	5.5
+}
+
+;		(ai)
+
+AI {
+UnderThresh 	82.15
+UnderRange  	3162.633545
+UnderFront  	251.52
+UnderRear   	1125.232666
+UnderMax    	0.271073
+OverThresh  	1704.070923
+OverRange   	1391
+OverMax     	0.74623
+OverAccThresh  	113.93
+OverAccRange   	2574.388916
+PickupBias     	16383
+BlockBias      	16383
+OvertakeBias   	16383
+Suspension     	9830
+Aggression     	0
+}
+
+}
+
+a1ali170301

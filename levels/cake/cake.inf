@@ -1,0 +1,23 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'Cake'
+STARTPOS        0 0 0
+STARTPOSREV     0 0 0
+STARTROT        0
+STARTROTREV     0.5
+STARTGRID       1
+STARTGRIDREV    0
+FARCLIP         13000
+FOGSTART        12000
+FOGCOLOR        57 57 57
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     100
+MODELRGBPER     100
+INSTANCERGBPER  100
+DIFFICULTY      4
+MUSIC		      'music\io\dark_trance.mp3'
+REDBOOK		   13 13
+CHALLENGE		   0 33 500

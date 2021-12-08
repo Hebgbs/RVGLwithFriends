@@ -1,0 +1,20 @@
+;----------------------------
+; Revolt .INF file structure
+;----------------------------
+
+NAME            'The Catacombs'
+STARTPOS        7000.000000 -2000.000000 9000.000000
+STARTPOSREV     0 0 0
+STARTROT        0.000000
+STARTROTREV     0.0
+STARTGRID       3
+STARTGRIDREV    0
+FARCLIP         5000
+FOGSTART        500
+FOGCOLOR        40 20 0
+VERTFOGSTART    0
+VERTFOGEND      0
+WORLDRGBPER     40
+MODELRGBPER     40
+INSTANCERGBPER  40
+REDBOOK          7 8

@@ -1,0 +1,32 @@
+-----------------------------
+OCT.2009
+-----------------------------
+Halloween 2
+-----------------------------
+Hi all!
+Here is a track and a prm pack you can use in any way 
+you would like. Just leave this file in your new track.
+
+Not that scarry to me.
+
+The ncp file is maxed out.Thats why it loads so slow I made the track like 2 times
+to long and used to meny polygons on the obase.prm you 
+will see it in here. That is why things are what they are.
+NEW PRMS You can use!
+3 PUMPKINS
+1 FENCE
+1 GATEWAY
+2 GATES LEFT AND RIGHT SOLID ON ONE SIDE.
+1 LARGE HOUSE
+2 SMALL BUILDINGS
+3 WALLS 
+2 DTREES DEAD TREES BIG AND SMALL
+2 GHOST BIG AND SMALL
+1 BACK GROUND TREES 3D
+AND MORE.
+See the com.txt and the command.txt files.
+------------------------------------
+So someone make a track!
+------------------------------------
+Thanks for trying the track.
+rickyD
