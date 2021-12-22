@@ -31,7 +31,7 @@ After the repository is cloned, the next steps can take place.
 > _Replace with your actual paths._ If you need help with this, then I wil happily provide clarification._
 
 ### Installing the extra content
-This reository ue to have scripts for people to run, but I figured they're on par useful to yours truly, **so I deleted them.** Both methods for Windows and Linux are shown below — Mac users, you're on your own. _But_ the intent here is to create a means of using them through the use of journaling filesystems.
+This repository uee to have scripts for people to run, but I figured they're on par useful as yours truly, **so I deleted them.** Both methods for Windows and Linux are shown below — Mac users, you're on your own. _But_ the intent here is to create a means of using them through the use of journaling filesystems.
 > ### Windows
 > ```
 > REN %RVGLpath%\cars oldCars
